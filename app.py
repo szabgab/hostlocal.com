@@ -19,7 +19,10 @@ def course(name):
     if os.path.exists(course_file):
         with open(course_file) as fh:
             course = json.load(fh)
-        return render_template('course.html', course = course)
+        return render_template('course.html',
+            course = course,
+            page_title = "{} - Training course in Israel".format(course['title'])
+        )
     abort(404)
 
 @app.route("/<string:name>")
@@ -31,5 +34,7 @@ def page(name):
 
 @app.route("/")
 def home():
-    return render_template('index.html')
+    return render_template('index.html',
+        page_title = "Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python",
+    )
 

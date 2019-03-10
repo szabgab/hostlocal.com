@@ -39,12 +39,6 @@ def home():
     )
 
 
-@app.route("/google419b25b06d9f4ffc.html")
-def google():
-    with open( os.path.join(root, 'static', 'google419b25b06d9f4ffc.html')) as fh:
-        return fh.read()
-
-
 @app.route("/sitemap.xml")
 def sitemap():
     xml = """

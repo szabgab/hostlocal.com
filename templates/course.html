@@ -1,0 +1,53 @@
+{% include 'incl/header.html' %}
+
+<h1>{{ course.title }}</h3>
+
+<h2>Target Audience</h2>
+<ul>
+{% for entry in course.target_audience %}
+   <li>{{ entry }}</li>
+{% endfor %}
+</ul>
+
+<h2>Prerequisites</h2>
+<ul>
+{% for entry in course.prerequisites %}
+   <li>{{ entry|safe }}</li>
+{% endfor %}
+</ul>
+
+<h2>Objectives</h2>
+<ul>
+{% for entry in course.objectives %}
+   <li>{{ entry }}</li>
+{% endfor %}
+</ul>
+
+
+<h2>Length</h2>
+<ul>
+{% for entry in course.length %}
+   <li>{{ entry }}</li>
+{% endfor %}
+</ul>
+
+
+<h2>Language</h2>
+<ul>
+{% for entry in course.language %}
+   <li>{{ entry }}</li>
+{% endfor %}
+</ul>
+
+
+<h2>Syllabus</h2>
+<ul>
+{% for entry in course.syllabus %}
+   <li>{{ entry }}</li>
+{% endfor %}
+</ul>
+
+{% include 'incl/contact.html' %}
+
+
+{% include 'incl/footer.html' %}

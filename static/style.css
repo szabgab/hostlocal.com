@@ -10,6 +10,9 @@ td {
     color: #4a4d4a;
 }
 
+a {
+    text-decoration: none;
+}
 a:link {
     color: #0033cc;
 }

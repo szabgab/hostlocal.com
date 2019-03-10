@@ -38,3 +38,25 @@ def home():
         page_title = "Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python",
     )
 
+
+@app.route("/sitemap.xml")
+def sitemap():
+    xml = """
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://hostlocal.com/</loc>
+    <lastmod>2019-03-10</lastmod>
+  </url>
+"""
+    for course in os.listdir( os.path.join(root, 'courses', 'eng') ):
+        xml += """
+  <url>
+    <loc>https://hostlocal.com/{}</loc>
+    <lastmod>2019-03-10</lastmod>
+  </url>""".format(course[0:-5])
+
+    xml += "\n</urlset>"
+    return xml
+
+

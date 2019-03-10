@@ -1,0 +1,148 @@
+{
+    "title": "Python Programming",
+    "target_audience": [
+        "This is a beginner course suitable for anyone wanting to use Python for developing applications, writing test for QA or using it for system administration."
+    ],
+    "prerequisites": [
+        "Basic programming background in either a high-level language such as C, Java or a scripting language such as Shell, VBSscript, Javascript, Perl, PHP or Ruby",
+        "Experience with a text editor like emacs, vi, pico or notepad.",
+        "Understanding of files and directories."
+    ],
+    "objectives": [
+        "To be able to write programs in Python.",
+        "To master the rich set of Python libraries and modules.",
+        "Understand procedural control flow in Python",
+        "Use Object Oriented programming techniques"
+    ],
+    "course_format": [
+        "Duration of the course is 24-32 academic hours. (Usually 3-4 days).",
+        "The course includes approximately 40% hands on lab work.",
+        "In the 4 day long version we allocate more time for exercises and have more time for individual help.",
+        "The course can be given in either using Python 2 or Python 3"
+    ],
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
+    ],
+    "syllabus": [
+        {
+            "title": "Introduction to Python",
+            "entries": [
+               "Installing Python",
+               "Where and why to use Python",
+               "Using the Python interactive interpreter",
+               "Documentation and how to get help?",
+               "Indentation"
+            ]
+        },
+        {
+            "title": "Types and operators",
+            "entries": [
+                "Strings",
+                "Numbers",
+                "Lists (arrays)",
+                "Tuples",
+                "Dictionaries (hashes)",
+                "Sorting"
+            ]
+       },
+       {
+            "title": "Functions subroutines",
+            "entries": [
+               "Function parameters",
+               "Positional parameters",
+               "Named parameters",
+               "Default values",
+               "Optional parameters",
+               "Return values",
+               "Function documentation",
+               "Lambda functions"
+            ]
+       },
+       {
+           "title": "Control flow",
+           "entries": [
+              "For loops",
+              "While loops",
+              "Loop controls",
+              "Conditionals",
+              "Chained comparison",
+              "Enumerate",
+              "Boolean and logical operators"
+           ]
+       },
+       {
+           "title": "IO",
+           "entries": [
+               "print",
+               "print formatting",
+               "read/write files"
+           ]
+       },
+       {
+           "title": "Regular expression (pattern matching)",
+           "entries": [
+               "Matching all",
+               "Searching for a single match",
+               "Meta characters",
+               "Character classes",
+               "Special character classes",
+               "Quantifiers",
+               "Alternatives",
+               "Modifier flags",
+               "Anchors",
+               "Back-references",
+               "Substitution"
+            ]
+       },
+       {
+           "title": "The Python standard library",
+           "entries": [
+              "Filesystem related functions",
+              "Running external processes"
+           ]
+       },
+       {
+           "title": "Creating modules",
+           "entries": [
+                "Loading a module",
+                "Finding a module in a private directory",
+                "Changing the search path to a relative directory",
+                "Importing selected functions",
+                "Namespaces",
+                "Creating executable module"
+           ]
+       },
+       {
+           "title": "Exception handling",
+           "entries": [
+               "Creating non-fatal warnings",
+               "Catching exceptions",
+               "Handling exceptions",
+               "Throwing a new exception",
+               "The final block",
+               "Creating your own exception"
+           ]
+       },
+       {
+           "title": "Object Oriented Programming",
+           "entries": [
+                "Defining classes",
+                "Initializing objects",
+                "Methods",
+                "Attributes or members",
+                "The self",
+                "Inheritance"
+           ]
+       },
+       {
+           "title": "Additional uses",
+           "entries": [
+               "Installing and using 3rd party modules",
+               "Writing simple web scraping program",
+               "Writing simple Web application",
+               "Accessing SQL databases",
+               "Reading and writing Excel files"
+           ]
+       }
+   ]
+}

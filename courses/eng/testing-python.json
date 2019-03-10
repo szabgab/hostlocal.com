@@ -23,26 +23,31 @@
         "The course is given in Hebrew with slides and materials in English."
     ],
     "syllabus": [
-          "Short review of rhe Unit-test package and doctest.",
-          "Getting started with testing: top-down and bottom-up.",
-          "The rest of the course covers Pytest:",
-          "Setup",
-          "Test a module",
-          "Capture Standard output and standard error",
-          "Skipping irrelevant tests",
-          "Tests that are expected to fail",
-          "Setup and teardown methods",
-          "Fixtures",
-          "Creating your own fixtures",
-          "Separating test executions",
-          "Parallel test run",
-          "Testing web applications",
-          "Creating and understanding test coverage",
-          "Faking an external API",
-          "Testing error conditions",
-          "Verifying the proper exceptions are raised.",
-          "Testing how the application behaves when a third-party API breaks.",
-          "Faking random numbers for testing"
+        {
+            "title": "Details",
+            "entries": [
+                "Short review of rhe Unit-test package and doctest.",
+                "Getting started with testing: top-down and bottom-up.",
+                "The rest of the course covers Pytest:",
+                "Setup",
+                "Test a module",
+                "Capture Standard output and standard error",
+                "Skipping irrelevant tests",
+                "Tests that are expected to fail",
+                "Setup and teardown methods",
+                "Fixtures",
+                "Creating your own fixtures",
+                "Separating test executions",
+                "Parallel test run",
+                "Testing web applications",
+                "Creating and understanding test coverage",
+                "Faking an external API",
+                "Testing error conditions",
+                "Verifying the proper exceptions are raised.",
+                "Testing how the application behaves when a third-party API breaks.",
+                "Faking random numbers for testing"
+            ]
+        }
     ]
 }
 

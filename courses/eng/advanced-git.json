@@ -20,17 +20,26 @@
         "The course is given in Hebrew with slides and materials in English."
     ],
     "syllabus": [
-        "stash, to allow for quick switching of work.",
-        "rebase, to make history smoother.",
-        "bisect, to quickly find the change that broke the code.",
-        "Interactive commit",
-        "Interactive rebase",
-        "Introducing several methodologies, discussing the advantages and disadvantages of them.",
-        "- Single master centralized workflow.",
-        "- Short feature branches.",
-        "- Long feature branches with frequent rebase.",
-        "- GitFlow (feature branches, bug-fix branches, development branch, release branch)",
-        "- Forking workflow with multiple remote repositories.",
-        "- Working with Pull-requests."
+        {
+            "title": "Advanced commands",
+            "entries": [
+                "stash, to allow for quick switching of work.",
+                "rebase, to make history smoother.",
+                "bisect, to quickly find the change that broke the code.",
+                "Interactive commit",
+                "Interactive rebase"
+            ]
+        },
+        {
+            "title": "Introducing several methodologies, discussing the advantages and disadvantages of them.",
+            "entries": [
+                "Single master centralized workflow.",
+                "Short feature branches.",
+                "Long feature branches with frequent rebase.",
+                "GitFlow (feature branches, bug-fix branches, development branch, release branch)",
+                "Forking workflow with multiple remote repositories.",
+                "Working with Pull-requests."
+            ]
+        }
     ]
 }

@@ -41,11 +41,17 @@
 
 
 <h2>Syllabus</h2>
-<ul>
-{% for entry in course.syllabus %}
-   <li>{{ entry }}</li>
+<ol>
+{% for part in course.syllabus %}
+   <li>{{ part.title }}
+      <ul>
+          {% for entry in part.entries %}
+              <li>{{ entry }}</li>
+          {% endfor %}
+      </ul>
+   </li>
 {% endfor %}
-</ul>
+</ol>
 
 {% include 'incl/contact.html' %}
 

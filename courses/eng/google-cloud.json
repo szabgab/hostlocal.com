@@ -1,0 +1,65 @@
+{
+    "title": "Getting started with Google Cloud",
+    "target_audience": [
+        "Software Developers.",
+        "QA Engineers",
+        "DevOps Engineers",
+        "Technical leads who want to learn about the Google Cloud."
+    ],
+    "prerequisites": [
+        "A laptop that can connect to the internet with a text editor you are familiar with.",
+        "Basic knowladge of Linux",
+        "No prior experience with the cloud is required."
+    ],
+    "objectives": [
+       "Be able to create a Google Cloud account",
+       "Create and destroy a computation instance",
+       "Set up a Virtual Private Server",
+       "Set up a web application"
+    ],
+    "length": [
+         "8 academic hours. (Two half-days)"
+    ],
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
+    ],
+    "syllabus": [
+       {
+           "title": "Getting started with GCP",
+           "entries": [
+               "Overview – GCP services",
+               "Google Compute Engine - VPS",
+               "Google Storage",
+               "Googel Cloud SQL",
+               "Google Functions",
+               "Creating your GCP account",
+               "Using GCP Free of charge"
+          ]
+      },
+      {
+          "title": "Google Compute Engine",
+          "entries": [
+              "Available machine types and how to configure them.",
+              "Creating and configuring virtual machines",
+              "Connecting to the virtual machine",
+              "Private IP / Public IP",
+              "Ephemeral IP vs fixed IP"
+         ]
+      },
+      {
+          "title": "Data Storage in GCP",
+          "entries": [
+             "What are buckets",
+             "Using gs to save files",
+             "Store, retrive files"
+         ]
+     },
+     {
+         "title": "Managed SQL databases in Google cloud",
+         "entries": [
+            "Creating a  manage database in the cloud",
+            "Accessing the database"
+         ]
+     }
+   ]
+}

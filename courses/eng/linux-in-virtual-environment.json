@@ -1,0 +1,42 @@
+{
+  "title": "Getting started with Linux in a local virtual environment",
+    "target_audience": [
+        "Developers",
+        "QA engineers",
+        "DevOps engineers",
+        "Automation engineers"
+    ],
+    "prerequisites": [
+         "General understanding how computers work.",
+         "Bring your own computer where you already have <a href=\"https://www.virtualbox.org/\">VirtualBox</a> installed and where you have the rights to install new software."
+    ],
+    "objectives": [
+            "Have a Linux distribution on the computer brought by the participant",
+            "Be able to use bacis commands in the Linux shell.",
+            "Have directions on how to further learn about the Linux shell.",
+            "Understand what is Unix/Linux.",
+            "Understand the Open Source development model."
+    ],
+    "length": [
+         "8 academic hours. (Two half-days)"
+    ],
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
+    ],
+    "syllabus": [
+            "Install a Linux distribution on the computer brought by the participant",
+            "Linux with GUI - short review of Linux as a desktop computer.",
+            "Create users.",
+            "Install new software.",
+            "Update existing software.",
+            "Open the terminal.",
+            "Access linux from another computer (ssh, putty)",
+            "Create, edit, move, copy, and remove files and directories.",
+            "grep, pipe",
+            "less, cat, find, wc",
+            "du, df, free, gzip, tar",
+            "Process management ps, htop, jobs, bg, fg",
+            "Environment variables, PATH, etc."
+    ]
+}
+

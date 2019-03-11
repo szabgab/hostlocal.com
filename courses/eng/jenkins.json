@@ -1,0 +1,80 @@
+{
+    "title": "Setting up Continuous Integration with Jenkins",
+    "target_audience": [
+        "Developers",
+        "QA engineers",
+        "DevOps engineers",
+        "Automation engineers"
+    ],
+    "prerequisites": [
+        "Basic understanding of Linux.",
+        "Understanding of the software development process.",
+        "Bring your own computer where you installed and where you have the rights to install new software."
+    ],
+    "objectives": [
+        "Understand the role of Continuous Integration in the life-cycle of software projects.",
+        "Create simple Jenkins jobs with and without pipelines"
+    ],
+    "course_format": [
+         "8 academic hours. (Two half-days or a full day)"
+    ],
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
+    ],
+    "syllabus": [
+        {
+            "title": "Install Jenkins master",
+            "entries": [
+                "Install Jenkins on a local Linux system or on a cloud based VPS.",
+                "Install the default plugins",
+                "Install additional plugins",
+                "Configuration of Jenkins",
+                "Backup of Jenkins",
+                "User administration in Jenkins"
+            ]
+        },
+        {
+            "title": "Create a simple Jenkins Job",
+            "entries": [
+                "Create a Jenkins job that runs a shell script on Unix",
+                "Schedule a job based on polling.",
+                "Schedule a job based on timer.",
+                "Schedule a job based on trigger."
+            ]
+        },
+        {
+            "title": "Create a Pipeline job",
+            "entries": [
+                "Create a job using Pipelines manually",
+                "Add several stages to the pipeline",
+                "Use plugins to enhance the pipeline",
+                "Sequencial and parallel steps in a Jenkins pipeline",
+                "Post stages of pipelines",
+                "The pipeline editor",
+                "Blue Ocean"
+            ]
+        },
+        {
+            "title": "Install Jenkins agent",
+            "entries": [
+                "Install Jenkins agent",
+                "Configure jobs to run on the agent",
+                "Limit the number of processes on the agent"
+            ]
+        },
+        {
+            "title": "Introduction to Groovy",
+            "entries": [
+                "Basic Groovy commands that can be used in Jenkins pipelines"
+            ]
+        },
+        {
+            "title": "Jenkins and Git",
+            "entries": [
+                "Connecting Git and Jenkins",
+                "Running Jenkins from Git"
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,140 @@
+{
+    "title": "Linux Basics for Power Users",
+    "target_audience": [
+        "The course is intended for technical personnel who need to use the Linux/Unix terminal on a daily basis, in an effective manner."
+    ],
+    "prerequisites": [
+        "Basic familiarity with MS Windows or Mac OSX.",
+        "Experience with a text editor like notepad, emacs, vi, or pico.",
+        "Basic understanding of files and directories."
+     ],
+     "objectives": [
+        "Understand and use the Linux/Unix terminal in effective way",
+        "Be comfortable with most of the command line tools available in Linux/Unix",
+        "Learn using Bash to make the daily work efficient"
+    ],
+    "course_format": [
+        "Duration of the course is 16 academic hours. (Usually 2 days or 4 half-days).",
+        "The course includes approximately 40% hands on lab work."
+    ],
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
+    ],
+    "syllabus": [
+        {
+            "title": "Introduction",
+            "entries": [
+                "What is Unix and Linux?",
+                "Unix and Linux, a brief history",
+                "Philosophy - Open Source, Free Software, Freware, Propriatery Software",
+                "Open Source Licenses -  GNU GPL, BSD and in between",
+                "Linux distributions (Fedora, RedHat, CentOS, Debiam, Ubuntu etc.)"
+            ]
+       },
+       {
+           "title": "Linux as Desktop",
+           "entries": [
+              "Login/Logout/Reboot",
+              "Gnome/KDE desktop environment",
+              "Installing programs, package management system",
+              "Basic maintenance - installing security upgrades",
+              "Overview of a few selected desktop applications",
+              "e-mail, web browsing, word processor, spreadsheet, file system browser",
+              "Opening the Terminal"
+           ]
+       },
+       {
+           "title": "Setting up your Linux Shell",
+           "entries": [
+               "Accessing Linux from another computer (telnet, ssh, putty)",
+               "Environmental variables",
+               "PATH, path",
+               "Customizing the prompt"
+           ]
+       },
+       {
+           "title": "The Bourne Again Shell (Bash)",
+           "entries": [
+              "Starting a Bash shell",
+              "The history facility",
+              "Command line editing",
+              "Aliases",
+              "Job control"
+           ]
+      },
+      {
+          "title": "Writing Scripts with Bash",
+          "entries": [
+             "Executing Commands in a Bash Script",
+             "Variables",
+             "Running the Script",
+             "Arithmetic operators",
+             "Logical operators & Conditionals",
+             "Control Statements",
+             "Loops"
+          ]
+      },
+      {
+          "title": "Findig Files",
+          "entries": [
+              "find, locate, whereis",
+              "Wildcard (glob) patterns"
+          ]
+      },
+      {
+          "title": "Searching Through Files",
+          "entries": [
+              "grep et. al.",
+              "awk",
+              "sed",
+              "Finding text in binaries",
+              "Piping and redirection"
+           ]
+      },
+      {
+          "title": "Regular Expressions",
+          "entries": [
+              "Pattern Syntax",
+              "Remembering Patterns",
+              "Metacharacters",
+              "Examples"
+          ]
+      },
+      {
+          "title": "Working with Files",
+          "entries": [
+              "Basic vi",
+              "Utilities such as cut, paste, sort, uniq, head, tail, wc",
+              "Comparing files with cmp, diff, patch"
+           ]
+      },
+      {
+          "title": "File Permissions and Ownership",
+          "entries": [
+              "Permissions",
+              "Owners (users and groups)",
+              "chown, chmod, newgrp, id"
+          ]
+      },
+      {
+         "title": "File System Basics",
+         "entries": [
+            "File System Hierarchy",
+            "Hard and Symbolic Links",
+            "i-nodes, ls, stat",
+            "du, df, mount",
+            "tar, gzip, sha1sum"
+         ]
+      },
+      {
+          "title": "Processes",
+          "entries": [
+              "What's a process?",
+              "Process states",
+              "Foreground, Background, suspended",
+              "Sending Signals using kill, pkill",
+              "Monitoring Processes with top, htop, ps, pgrep"
+          ]
+      }
+   ]
+}

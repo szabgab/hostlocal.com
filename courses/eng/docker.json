@@ -1,0 +1,80 @@
+{
+   "title": "Docker",
+     "target_audience": [
+        "Developers",
+        "Tech Leaders",
+        "QA engineers",
+        "DevOps engineers",
+        "Automation engineers"
+    ],
+    "prerequisites": [
+        "Understanding of Linux",
+        "Basic Administrative knowladge of Linux",
+        "At least 1 year of experience in the software development world.",
+        "Bring your own computer where you rights to install new software."
+    ],
+    "objectives": [
+        "Understand what problems Docker solves.",
+        "Understand when Docker might not be the appropriate solution.",
+        "Be able to create basic Docker images.",
+        "Be able to run Docker containers"
+    ],
+    "course_format": [
+         "8 academic hours. (Two half-days)"
+    ],
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
+    ],
+    "syllabus": [
+        {
+            "title": "Introduction to Docker",
+            "entries": [
+                "What is Docker?",
+                "How can Docker bridge the gap between Developers, QA, and Operations?"
+            ]
+        },
+        {
+            "title": "Running the first Docker container",
+            "entries": [
+                "Install Docker",
+                "Public Docker Images",
+                "Run a Docker contains"
+            ]
+        },
+        {
+            "title": "Docker Basics",
+            "entries": [
+                "Filesystems",
+                "Layers",
+                "Difference between a Docker Image and a Docker Container",
+                "Networks",
+                "Volumes"
+            ]
+        },
+        {
+            "title": "Building our first Docker container",
+            "entries": [
+                "FROM",
+                "CMD",
+                "COPY",
+                "RUN",
+                "WORKDIR",
+                "ENV",
+                "EXPOSE",
+                "Accessing the disk on the host system.",
+                "Cleaning up the dead containers.",
+                "Mapping ports of the Docker image and the local system."
+            ]
+        },
+        {
+            "title": "Use cases for Docker",
+            "entries": [
+                "Distributing a pre-configured system.",
+                "Distributing a command-line application.",
+                "Distributing a web application.",
+                "Distributing a database system."
+            ]
+        }
+    ]
+}
+

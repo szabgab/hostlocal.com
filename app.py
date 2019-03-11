@@ -25,6 +25,24 @@ def course(name):
         )
     abort(404)
 
+@app.route("/heb/")
+def heb():
+    return redirect('/', code=302)
+
+@app.route("/heb/<string:name>")
+def heb_course(name):
+    course_file = os.path.join(root, 'courses', 'heb', name + '.json')
+    if os.path.exists(course_file):
+        with open(course_file) as fh:
+            course = json.load(fh)
+        return render_template('hebrew_course.html',
+            rtl = 1,
+            course = course,
+            page_title = course['title']
+        )
+    abort(404)
+
+
 @app.route("/<string:name>")
 def page(name):
     if name in ['clients.html', 'gabor.html', 'perl.html', 'development.html', 'staff.html', 'contact.html', 'infrastructure.html']:

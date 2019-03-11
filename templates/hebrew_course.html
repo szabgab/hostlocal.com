@@ -1,0 +1,77 @@
+{% include 'incl/header.html' %}
+
+<h1 id="course_title">{{ course.title }}</h1>
+
+{% if course.text %}
+    {% for entry in course.text %}
+       {{ entry|safe }}
+    {% endfor %}
+{% endif %}
+
+{% if course.target_audience %}
+    <h2>קהל היעד</h2>
+    <ul>
+    {% for entry in course.target_audience %}
+       <li>{{ entry }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% if course.prerequisites %}
+    <h2>דרישות קדם</h2>
+    <ul>
+    {% for entry in course.prerequisites %}
+       <li>{{ entry|safe }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% if course.objectives %}
+    <h2>מתרות</h2>
+    <ul>
+    {% for entry in course.objectives %}
+       <li>{{ entry }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+
+{% if course.course_format %}
+    <h2>מבנה הקורס</h2>
+    <ul>
+    {% for entry in course.course_format %}
+       <li>{{ entry }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+
+{% if course.language %}
+    <h2>ספה</h2>
+    <ul>
+    {% for entry in course.language %}
+       <li>{{ entry }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+
+{% if course.syllabus %}
+    <h2>תוכן ענינים</h2>
+    <ol>
+    {% for part in course.syllabus %}
+       <li>{{ part.title }}
+          <ul>
+              {% for entry in part.entries %}
+                  <li>{{ entry }}</li>
+              {% endfor %}
+          </ul>
+       </li>
+    {% endfor %}
+    </ol>
+{% endif %}
+
+{% include 'incl/contact.html' %}
+
+
+{% include 'incl/footer.html' %}

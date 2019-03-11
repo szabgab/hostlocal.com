@@ -52,8 +52,10 @@ def page(name):
 
 @app.route("/")
 def home():
+    schedule = read_schedule()
     return render_template('index.html',
         page_title = "Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python",
+        schedule   = schedule,
     )
 
 
@@ -77,4 +79,13 @@ def sitemap():
     xml += "\n</urlset>"
     return xml
 
+def read_schedule():
+    with open( os.path.join(root, 'schedule.json') ) as fh:
+        schedule = json.load(fh)
+    for event in schedule:
+        with open( os.path.join(root, 'courses', 'eng', event['course'] + '.json') ) as fh:
+            course = json.load(fh)
+            event['title'] = course['title']
+
+    return schedule
 

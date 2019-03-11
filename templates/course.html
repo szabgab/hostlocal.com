@@ -2,6 +2,26 @@
 
 <h1 id="course_title">{{ course.title }}</h1>
 
+
+{% if schedule %}
+    <h2>Schedule</h2>
+    <p>
+     Every month there are a few training classes scheduled at areas where many hi-tech companies have offices to make
+     it easier for all the employees to attend the courses.
+     This course is currently scheduled:
+
+    <ul>
+      {% for event in schedule %}
+          <li>
+              On {{ event.date }}
+              in {{ event.location }}
+              <b><a href="{{ event.registration }}">registration!</a></b>
+          </li>
+      {% endfor %}
+    </ul>
+    </p>
+{% endif %}
+
 <h2>Target Audience</h2>
 <ul>
 {% for entry in course.target_audience %}

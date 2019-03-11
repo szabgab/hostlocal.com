@@ -16,12 +16,14 @@ def eng():
 @app.route("/eng/<string:name>")
 def course(name):
     course_file = os.path.join(root, 'courses', 'eng', name + '.json')
+    schedule = read_schedule(name)
     if os.path.exists(course_file):
         with open(course_file) as fh:
             course = json.load(fh)
         return render_template('course.html',
             course = course,
-            page_title = "{} - Training course in Israel".format(course['title'])
+            page_title = "{} - Training course in Israel".format(course['title']),
+            schedule   = schedule,
         )
     abort(404)
 
@@ -79,9 +81,13 @@ def sitemap():
     xml += "\n</urlset>"
     return xml
 
-def read_schedule():
+def read_schedule(name = None):
     with open( os.path.join(root, 'schedule.json') ) as fh:
         schedule = json.load(fh)
+
+    if name:
+        schedule = list(filter(lambda event: event['course'] == name, schedule))
+
     for event in schedule:
         with open( os.path.join(root, 'courses', 'eng', event['course'] + '.json') ) as fh:
             course = json.load(fh)

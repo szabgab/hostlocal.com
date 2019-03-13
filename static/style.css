@@ -33,6 +33,10 @@ ul {
     line-height: 19px;
 }
 
+li {
+    margin-bottom: 3px;
+}
+
 .banner {
     width: 700px;
     background-color: #FFF;

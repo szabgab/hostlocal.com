@@ -34,7 +34,7 @@ ul {
 }
 
 .banner {
-    width: 50%;
+    width: 700px;
     background-color: #FFF;
     color: #004065;
     font-size: 50px;
@@ -52,6 +52,13 @@ ul {
 .banner-text {
     font-size: 30px;
 }
+
+@media (max-width: 1000px) {
+    .banner {
+        width: 300px;
+    }
+}
+
 
 #main {
     width: 80%;

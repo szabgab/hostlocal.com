@@ -5,6 +5,10 @@ app = Flask(__name__)
 
 root = os.path.dirname( __file__ )
 
+@app.context_processor
+def inject_dates():
+    return dict(css_date = os.path.getmtime( os.path.join(root, 'static', 'style.css')))
+
 @app.route("/robots.txt")
 def robots():
     return ''

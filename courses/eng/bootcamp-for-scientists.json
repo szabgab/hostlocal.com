@@ -1,0 +1,202 @@
+{
+    "title": "Programming Bootcamp for Scientist",
+    "text": [
+        "Scientist don't need to become programmers, but they need to use computers and need to use programming languages.",
+        "In this bootcamp you'll get an overview how computers and programming environment work",
+        "You'll have an understanding about Open Source Software vs Closed Source Software.",
+        "You'll learn why and how to use version control system to make experiments safe.",
+        "You'll learn to use Python and some of its the scientific extensions, such as Numpy and Pandas.",
+        "This course is similar to the one I gave in the Weizmann Institute of Science in the fall of 2018 that will also run in the fall of 2019."
+    ],
+    "target_audience": [
+        "This is a beginner course suitable for anyone wanting to process scientific data. It is especially suitable for students and people working in scientific environments."
+    ],
+    "prerequisites": [
+        "Basic programming background. (e.g., R, Matlab)",
+        "Scientific background (at least Bsc in a science subject).",
+        "Understanding of files and directories."
+    ],
+    "objectives": [
+        "Have a basic understand of what software can do and what it cannot.",
+        "Have an understanding of the differences between environments like Matlab, R, and Python.",
+        "To be able to write programs in Python.",
+        "To master the rich set of Python libraries and modules.",
+        "Understand procedural control flow in Python"
+    ],
+    "course_format": [
+        "Duration of the course is 40 academic hours. (Usually 5 full days).",
+        "The course includes approximately 40% hands on lab work.",
+        "The course can be followed either using Python 2 or Python 3."
+    ],
+    "language": [
+        "The course can be given either in Hebrew or in English with slides and materials in English."
+    ],
+    "syllabus": [
+        {
+            "title": "Introduction to Computers and Programming",
+            "entries": [
+                "The parts of a computer and a mobile phone",
+                "Different types of programming languages: Compiled vs. Interpreted",
+                "Programming paradigms: imperative, procedural, oop, declarative, functional, logic, mathematical.",
+                "Software licensing model (Closed Source, Share-ware, Open Source, Free Software)",
+                "Software distribution model (packaged, service, application).",
+                "Single core, multi core, cluster",
+                "Complexity - run time, memory usage"
+            ]
+        },
+        {
+            "title": "Development and runtime environment in Python and elsewhere",
+            "entries": [
+                "Notepad++ and the command line.",
+                "PyCharm",
+                "Jupyter notebook",
+                "Spider",
+                "Running from the IDE vs. the command line vs. on a server vs. in a cluster.",
+                "Compare the above with Matlab."
+            ]
+        },
+        {
+            "title": "The Scientific libraries",
+            "entries": [
+                "NumPy",
+                "Pandas",
+                "SciPy",
+                "Matplotlib",
+                "Seaborn",
+                "Comparing with Matlab and R"
+            ]
+        },
+        {
+            "title": "Introduction to Python",
+            "entries": [
+               "Installing Python",
+               "Where and why to use Python",
+               "Using the Python interactive interpreter",
+               "Documentation and how to get help?",
+               "Indentation"
+            ]
+        },
+        {
+            "title": "Types and operators",
+            "entries": [
+                "Strings",
+                "Numbers",
+                "Lists (arrays)",
+                "Tuples",
+                "Dictionaries (hashes)",
+                "Sorting"
+            ]
+       },
+       {
+            "title": "Functions subroutines",
+            "entries": [
+               "Function parameters",
+               "Positional parameters",
+               "Named parameters",
+               "Default values",
+               "Optional parameters",
+               "Return values",
+               "Function documentation",
+               "Lambda functions"
+            ]
+       },
+       {
+           "title": "Control flow",
+           "entries": [
+              "For loops",
+              "While loops",
+              "Loop controls",
+              "Conditionals",
+              "Chained comparison",
+              "Enumerate",
+              "Boolean and logical operators"
+           ]
+       },
+       {
+           "title": "IO",
+           "entries": [
+               "print",
+               "print formatting",
+               "read/write files"
+           ]
+       },
+       {
+           "title": "Regular expression (pattern matching)",
+           "entries": [
+               "Matching all",
+               "Searching for a single match",
+               "Meta characters",
+               "Character classes",
+               "Special character classes",
+               "Quantifiers",
+               "Alternatives",
+               "Modifier flags",
+               "Anchors",
+               "Back-references",
+               "Substitution"
+            ]
+       },
+       {
+           "title": "The Python standard library",
+           "entries": [
+              "Filesystem related functions",
+              "Running external processes"
+           ]
+       },
+       {
+           "title": "Creating modules",
+           "entries": [
+                "Loading a module",
+                "Finding a module in a private directory",
+                "Changing the search path to a relative directory",
+                "Importing selected functions",
+                "Namespaces",
+                "Creating executable module"
+           ]
+       },
+       {
+           "title": "Exception handling",
+           "entries": [
+               "Creating non-fatal warnings",
+               "Catching exceptions",
+               "Handling exceptions",
+               "Throwing a new exception",
+               "The final block",
+               "Creating your own exception"
+           ]
+       },
+       {
+           "title": "Object Oriented Programming",
+           "entries": [
+                "Defining classes",
+                "Initializing objects",
+                "Methods",
+                "Attributes or members",
+                "The self",
+                "Inheritance"
+           ]
+       },
+       {
+           "title": "Additional uses",
+           "entries": [
+               "Installing and using 3rd party modules",
+               "Writing simple web scraping program",
+               "Writing simple Web application",
+               "Accessing SQL databases",
+               "Reading and writing Excel files"
+           ]
+       },
+       {
+           "title": "Version control using Git",
+           "entries": [
+               "The manual (home made) version control systems.",
+               "The advantages of a real version control system",
+               "Setting up Git on Windows, Linux, and Mac.",
+               "Adding files and directories",
+               "Looking at the history of changes",
+               "Going back in the history",
+               "Using GitHub and BitBucket."
+           ]
+       }
+   ]
+}

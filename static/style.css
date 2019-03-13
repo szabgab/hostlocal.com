@@ -53,17 +53,12 @@ ul {
     font-size: 30px;
 }
 
-@media (max-width: 1000px) {
-    .banner {
-        width: 300px;
-    }
-}
-
-
 #main {
     width: 80%;
     margin: auto;
 }
+
+
 hr {
    width: 80%;
    color: #006699;
@@ -82,3 +77,13 @@ hr {
     float: left;
     margin-right: 10px;
 }
+
+@media (max-width: 1000px) {
+    .banner {
+        width: 90%;
+    }
+    #main {
+        width: 100%;
+    }
+}
+

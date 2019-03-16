@@ -1,10 +1,20 @@
 {
-    "title": "From commit to delivery in less than 4 hours",
+    "title": "From idea to delivery in less than 4 hours",
     "text": [
       "A presentation about fast and reliable software development by Gabor Szabo.",
       "",
-      "In reality our goal is to be able to get from a commit to a deployed software withing minutes, but I could not resist the pun for this 4-hours long session.",
-      "In this 4-hours long session we are going to cover the current best practices of continuous integration and continuous deployment."
+      "In reality our goal is to be able to get from a commit to our version control system to a deployed software within minutes, but I could not resist the pun for this 4-hours long session.",
+      "In this 4-hours long session we are going to cover the current best practices of continuous integration and continuous deployment.",
+      "",
+      "The key question in software development projects is that given an idea for a feature or given a bug report, how quickly can we get it in the hands of our customers.",
+      "Being able to deliver the new feature faster means the value realized by the investment will be seen sooner. This is good both for your customers and for your company.",
+      "Traditionally the release cycles of companies were measured by months or even by years. Today, in most of the systems this is unacceptable. Today you need to deliver your software much faster.",
+      "How fast can this happen depends on the type of software you produce and how much control do you have over the delivery of the software, but in many cases this could be measure in minutes or hours",
+      "",
+      "How can you do this?",
+      "How can you do this in a reliable, repeatable, and safe way that does not require heroic after-hour actions by you and by your team?",
+      "In this session we'll go over various aspects of the development - testing - deployment process. We'll see practices employed in different situations.",
+      "We will look at case-studies how this can be done for the product-types your organization has."
     ],
     "target_audience": [
         "Team Leaders",

@@ -1,0 +1,21 @@
+{
+    "title": "From commit to delivery in less than 4 hours",
+    "text": [
+      "A presentation about fast and reliable software development by Gabor Szabo.",
+      "",
+      "In reality our goal is to be able to get from a commit to a deployed software withing minutes, but I could not resist the pun for this 4-hours long session.",
+      "In this 4-hours long session we are going to cover the current best practices of continuous integration and continuous deployment."
+    ],
+    "target_audience": [
+        "Team Leaders",
+        "Tech leaders",
+        "VP R&D"
+    ],
+    "course_format": [
+         "4 hours."
+    ],
+    "language": [
+        "The course can be given either in English or in Hebrew with slides being in English."
+    ]
+}
+

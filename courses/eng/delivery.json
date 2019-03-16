@@ -1,12 +1,12 @@
 {
     "title": "From idea to delivery in less than 4 hours",
     "text": [
-      "A presentation about fast and reliable software development by Gabor Szabo.",
+      "A presentation and discussion about fast and reliable software development.",
       "",
-      "In reality our goal is to be able to get from a commit to our version control system to a deployed software within minutes, but I could not resist the pun for this 4-hours long session.",
+      "Our goal is to be able to get from a commit to our version control system to a deployed software within a few hours, or if possible, within a few minutes.",
       "In this 4-hours long session we are going to cover the current best practices of continuous integration and continuous deployment.",
       "",
-      "The key question in software development projects is that given an idea for a feature or given a bug report, how quickly can we get it in the hands of our customers.",
+      "The key question in software development projects is that given an idea for a feature or given a bug report, how quickly can we get it in the hands of our customers?",
       "Being able to deliver the new feature faster means the value realized by the investment will be seen sooner. This is good both for your customers and for your company.",
       "Traditionally the release cycles of companies were measured by months or even by years. Today, in most of the systems this is unacceptable. Today you need to deliver your software much faster.",
       "How fast can this happen depends on the type of software you produce and how much control do you have over the delivery of the software, but in many cases this could be measure in minutes or hours",
@@ -25,11 +25,65 @@
         "CTO",
         "VP R&D"
     ],
+    "objectives": [
+        "To have an understand how one can achieve very short release cycles.",
+        "Understand how (if at all) cloud could help your organization.",
+        "Have ways on how to get started in your own organizaton."
+    ],
     "course_format": [
          "4 hours."
     ],
     "language": [
         "The course can be given either in English or in Hebrew with slides being in English."
+    ],
+    "syllabus": [
+        {
+            "title": "Content",
+            "entries": [
+                "Value chain",
+                "Deployment pipeline",
+                "Waterfall vs Agile vs Lean",
+                "The Wall of Confusion",
+                "DevOps?",
+                "High-performance organizations",
+                "Multitasking",
+                "Batch sizes",
+                "Eliminate waste",
+                "Fast feedback loops",
+                "Andon cord",
+                "Continuous Integration",
+                "Test Driven Development",
+                "Pair programming",
+                "Mob programming",
+                "Refactoring code",
+                "Conways's Law and its application",
+                "Continuous Deployment",
+                "Continuous Delivery",
+                "Continuous Improvement",
+                "Top-down and bottom-up approaches"
+            ]
+        },
+        {
+            "title": "Using the cloud",
+            "entries": [
+                "On Premise infrastructure",
+                "Iaas - Infrastructure as a service",
+                "PaaS - Platform as a service",
+                "SaaS - Software as a service",
+                "Serverless Architecture (Amazon Lamda, Google Functions)"
+            ]
+        },
+        {
+            "title": "Product/Service types",
+            "entries": [
+                "Hardware",
+                "Embedded software",
+                "On-premise application/device",
+                "Desktop Application",
+                "Mobile Application",
+                "Web Application"
+            ]
+        }
     ],
     "resources": [
         "<a href=\"https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592\">The Phoenix project</a> by  Gene Kim, Kevin Behr, George Spafford",
@@ -43,20 +97,23 @@
         "<a href=\"https://www.amazon.com/Switch-Change-Things-When-Hard/dp/0385528752\">Switch: How to Change Things When Change Is Hard</a> by Chip Heath and Dan Heath",
         "<a href=\"https://www.amazon.com/Drive-Surprising-Truth-About-Motivates-ebook/dp/B004P1JDJO\">Drive: The Surprising Truth About What Motivates Us</a> by Daniel H. Pink",
         "<a href=\"https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202\">Flow: The Psychology of Optimal Experience</a> by Mihaly Csikszentmihalyi.",
+        "<a href=\"https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/\">Refactoring: Improving the Design of Existing Code (2nd Edition)</a> by Martin Fowler</a>",
         "<a href=\"https://leanpub.com/mobprogramming\">Mob programming</a> by Woody Zuill and Kevin Meadows.",
         "<a href=\"https://leanpub.com/forging-python\">Forging Python</a> by Miki Tebeka.",
         "<a href=\"https://www.youtube.com/watch?v=wyWI3gLpB8o\">Velocity and volume (or speed wins)</a> Adrian Cockcroft.",
         "<a href=\"https://www.youtube.com/watch?v=oH4g7wLPqg4\">Moving Fast At Scale</a> video by Randy Shoup.",
         "<a href=\"https://www.slideshare.net/RandyShoup/moving-fast-at-scale\">Moving Fast At Scale</a> slides by Randy Shoup.",
-        "<a href=\"http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/\">No, You are not Dumb! Programmers do spend a lot of time Understanding Code...</a> links to surveys.",
         "<a href=\"https://readwrite.com/2013/04/25/how-software-developers-really-spend-their-time/\">How Software Developers Really Spend Their Time</a> Lauren Orsini",
         "<a href=\"https://hackernoon.com/youre-doing-scrum-wrong-and-here-s-how-to-fix-it-6d45fdd26721\">You're Doing Scrum Wrong, and Here's How to Fix It</a>",
         "<a href=\"http://agilemanifesto.org/\">Manifesto for Agile Software Development</a>",
         "<a href=\"https://martinfowler.com/bliki/CanaryRelease.html\">Canary Release</a>",
-        "<a href=\"https://www.infoq.com/news/2018/06/developers-should-abandon-agile\">Ron Jeffries Says Developers Should Abandon 'Agile'</a>",
+        "<a href=\"https://www.infoq.com/news/2018/06/developers-should-abandon-agile\">Ron Jeffries Says Developers Should Abandon Agile</a>",
         "<a href=\"https://ronjeffries.com/articles/018-01ff/abandon-1/\">Developers Should Abandon Agile</a> by Ron Jeffries.",
         "<a href=\"http://stateofagile.versionone.com/\">State of Agile</a> Collabnet and VersionOne survey.",
         "<a href=\"https://puppet.com/resources/whitepaper/state-of-devops-report\">State of DevOps</a> Puppet labs report."
+    ],
+    "other": [
+        "<a href=\"http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/\">No, You are not Dumb! Programmers do spend a lot of time Understanding Code...</a> links to surveys."
     ]
 }
 

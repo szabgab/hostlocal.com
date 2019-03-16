@@ -28,6 +28,7 @@ def course(name):
             course = course,
             page_title = "{} - Training course in Israel".format(course['title']),
             schedule   = schedule,
+            title      = read_titles('eng'),
         )
     abort(404)
 
@@ -41,10 +42,11 @@ def heb_course(name):
     if os.path.exists(course_file):
         with open(course_file) as fh:
             course = json.load(fh)
-        return render_template('hebrew_course.html',
+        return render_template('course.html',
             rtl = 1,
             course = course,
-            page_title = course['title']
+            page_title = course['title'],
+            title      = read_titles('heb'),
         )
     abort(404)
 
@@ -98,4 +100,8 @@ def read_schedule(name = None):
             event['title'] = course['title']
 
     return schedule
+
+def read_titles(name):
+    with open(os.path.join(root, name + '.json')) as fh:
+        return json.load(fh)
 

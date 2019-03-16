@@ -11,9 +11,8 @@
     {% endfor %}
 {% endif %}
 
-
 {% if schedule %}
-    <h2>Schedule</h2>
+    <h2>{{ title.schedule }}</h2>
     <p>
      Every month there are a few training classes scheduled at areas where many hi-tech companies have offices to make
      it easier for all the employees to attend the courses.
@@ -31,56 +30,67 @@
     </p>
 {% endif %}
 
-<h2>Target Audience</h2>
-<ul>
-{% for entry in course.target_audience %}
-   <li>{{ entry }}</li>
-{% endfor %}
-</ul>
+{% if course.target_audience %}
+    <h2>{{ title.audience }}</h2>
+    <ul>
+    {% for entry in course.target_audience %}
+       <li>{{ entry }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
 
-<h2>Prerequisites</h2>
-<ul>
-{% for entry in course.prerequisites %}
-   <li>{{ entry|safe }}</li>
-{% endfor %}
-</ul>
+{% if course.prerequisites %}
+    <h2>{{ title.prerequisites }}</h2>
+    <ul>
+    {% for entry in course.prerequisites %}
+       <li>{{ entry|safe }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
 
-<h2>Objectives</h2>
-<ul>
-{% for entry in course.objectives %}
-   <li>{{ entry }}</li>
-{% endfor %}
-</ul>
+{% if course.objectives %}
+    <h2>{{ title.objectives }}</h2>
+    <ul>
+    {% for entry in course.objectives %}
+       <li>{{ entry }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
 
-
-<h2>Course Format</h2>
-<ul>
-{% for entry in course.course_format %}
-   <li>{{ entry }}</li>
-{% endfor %}
-</ul>
-
-
-<h2>Language</h2>
-<ul>
-{% for entry in course.language %}
-   <li>{{ entry }}</li>
-{% endfor %}
-</ul>
+{% if course.course_format %}
+    <h2>{{ title.format }}</h2>
+    <ul>
+    {% for entry in course.course_format %}
+       <li>{{ entry }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
 
 
-<h2>Syllabus</h2>
-<ol>
-{% for part in course.syllabus %}
-   <li>{{ part.title }}
-      <ul>
-          {% for entry in part.entries %}
-              <li>{{ entry }}</li>
-          {% endfor %}
-      </ul>
-   </li>
-{% endfor %}
-</ol>
+{% if course.language %}
+    <h2>{{ title.language }}</h2>
+    <ul>
+    {% for entry in course.language %}
+       <li>{{ entry }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+
+{% if course.syllabus %}
+    <h2>{{ title.syllabus }}</h2>
+    <ol>
+    {% for part in course.syllabus %}
+       <li>{{ part.title }}
+          <ul>
+              {% for entry in part.entries %}
+                  <li>{{ entry }}</li>
+              {% endfor %}
+          </ul>
+       </li>
+    {% endfor %}
+    </ol>
+{% endif %}
 
 {% include 'incl/contact.html' %}
 

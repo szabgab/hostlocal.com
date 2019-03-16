@@ -92,6 +92,16 @@
     </ol>
 {% endif %}
 
+{% if course.resources %}
+    <h2>{{ title.resources }}</h2>
+    <ul>
+    {% for entry in course.resources %}
+        <li>{{ entry|safe }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+
 {% include 'incl/contact.html' %}
 
 

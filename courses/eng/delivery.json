@@ -17,8 +17,12 @@
       "We will look at case-studies how this can be done for the product-types your organization has."
     ],
     "target_audience": [
-        "Team Leaders",
         "Tech leaders",
+        "Team Leaders",
+        "QA Manager",
+        "Operations lead",
+        "DevOps lead",
+        "CTO",
         "VP R&D"
     ],
     "course_format": [
@@ -26,6 +30,33 @@
     ],
     "language": [
         "The course can be given either in English or in Hebrew with slides being in English."
+    ],
+    "resources": [
+        "<a href=\"https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592\">The Phoenix project</a> by  Gene Kim, Kevin Behr, George Spafford",
+        "<a href=\"https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/\">The DevOps handbook</a> by Gene Kim, Patrick Debois, John Wills, Jez Humble, John Allspaw",
+        "<a href=\"https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/\">Continuous delivery</a> by Jez Humble and Dave Farley",
+        "<a href=\"https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783\">Lean Software Development: An Agile Toolkit</a> by Mary Poppendieck and Tom Poppendieck.",
+        "<a href=\"https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951\">The Goal: A Process of Ongoing Improvement</a> by Eliyahu M. Goldratt and Jeff Cox.",
+        "<a href=\"https://www.amazon.com/Lean-Thinking-Corporation-Revised-Updated/dp/0743249275\">Lean Thinking: Banish Waste and Create Wealth in Your Corporation</a> by James P. Womack and Daniel T. Jones.",
+        "<a href=\"https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254\">The Fifth Discipline: The Art & Practice of The Learning Organization</a> by Peter M. Senge.",
+        "<a href=\"https://pragprog.com/book/dblegacy/beyond-legacy-code\">Beyond Legacy Code</a> by David Scott Bernstein.",
+        "<a href=\"https://www.amazon.com/Switch-Change-Things-When-Hard/dp/0385528752\">Switch: How to Change Things When Change Is Hard</a> by Chip Heath and Dan Heath",
+        "<a href=\"https://www.amazon.com/Drive-Surprising-Truth-About-Motivates-ebook/dp/B004P1JDJO\">Drive: The Surprising Truth About What Motivates Us</a> by Daniel H. Pink",
+        "<a href=\"https://www.amazon.com/Flow-Psychology-Experience-Perennial-Classics/dp/0061339202\">Flow: The Psychology of Optimal Experience</a> by Mihaly Csikszentmihalyi.",
+        "<a href=\"https://leanpub.com/mobprogramming\">Mob programming</a> by Woody Zuill and Kevin Meadows.",
+        "<a href=\"https://leanpub.com/forging-python\">Forging Python</a> by Miki Tebeka.",
+        "<a href=\"https://www.youtube.com/watch?v=wyWI3gLpB8o\">Velocity and volume (or speed wins)</a> Adrian Cockcroft.",
+        "<a href=\"https://www.youtube.com/watch?v=oH4g7wLPqg4\">Moving Fast At Scale</a> video by Randy Shoup.",
+        "<a href=\"https://www.slideshare.net/RandyShoup/moving-fast-at-scale\">Moving Fast At Scale</a> slides by Randy Shoup.",
+        "<a href=\"http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/\">No, You are not Dumb! Programmers do spend a lot of time Understanding Code...</a> links to surveys.",
+        "<a href=\"https://readwrite.com/2013/04/25/how-software-developers-really-spend-their-time/\">How Software Developers Really Spend Their Time</a> Lauren Orsini",
+        "<a href=\"https://hackernoon.com/youre-doing-scrum-wrong-and-here-s-how-to-fix-it-6d45fdd26721\">You're Doing Scrum Wrong, and Here's How to Fix It</a>",
+        "<a href=\"http://agilemanifesto.org/\">Manifesto for Agile Software Development</a>",
+        "<a href=\"https://martinfowler.com/bliki/CanaryRelease.html\">Canary Release</a>",
+        "<a href=\"https://www.infoq.com/news/2018/06/developers-should-abandon-agile\">Ron Jeffries Says Developers Should Abandon 'Agile'</a>",
+        "<a href=\"https://ronjeffries.com/articles/018-01ff/abandon-1/\">Developers Should Abandon Agile</a> by Ron Jeffries.",
+        "<a href=\"http://stateofagile.versionone.com/\">State of Agile</a> Collabnet and VersionOne survey.",
+        "<a href=\"https://puppet.com/resources/whitepaper/state-of-devops-report\">State of DevOps</a> Puppet labs report."
     ]
 }
 

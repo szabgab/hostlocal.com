@@ -2,6 +2,15 @@
 
 <h1 id="course_title">{{ course.title }}</h1>
 
+{% if course.text %}
+    {% for entry in course.text %}
+       {% if entry == '' %}
+           <p>
+       {% endif %}
+       {{ entry|safe }}
+    {% endfor %}
+{% endif %}
+
 
 {% if schedule %}
     <h2>Schedule</h2>

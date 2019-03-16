@@ -4,6 +4,9 @@
 
 {% if course.text %}
     {% for entry in course.text %}
+       {% if entry == '' %}
+           <p>
+       {% endif %}
        {{ entry|safe }}
     {% endfor %}
 {% endif %}

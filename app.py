@@ -18,17 +18,21 @@ def eng():
     return redirect('/', code=302)
 
 @app.route("/eng/<string:name>")
-def course(name):
-    course_file = os.path.join(root, 'courses', 'eng', name + '.json')
+def eng_course(name):
+    return course(name, 'eng')
+
+def course(name, lang):
+    course_file = os.path.join(root, 'courses', lang, name + '.json')
     schedule = read_schedule(name)
     if os.path.exists(course_file):
         with open(course_file) as fh:
             course = json.load(fh)
         return render_template('course.html',
-            course = course,
+            rtl        = (lang == 'heb'),
+            course     = course,
             page_title = "{} - Training course in Israel".format(course['title']),
             schedule   = schedule,
-            title      = read_titles('eng'),
+            title      = read_titles(lang),
         )
     abort(404)
 
@@ -38,17 +42,7 @@ def heb():
 
 @app.route("/heb/<string:name>")
 def heb_course(name):
-    course_file = os.path.join(root, 'courses', 'heb', name + '.json')
-    if os.path.exists(course_file):
-        with open(course_file) as fh:
-            course = json.load(fh)
-        return render_template('course.html',
-            rtl = 1,
-            course = course,
-            page_title = course['title'],
-            title      = read_titles('heb'),
-        )
-    abort(404)
+    return course(name, 'heb')
 
 
 @app.route("/<string:name>")

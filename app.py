@@ -14,14 +14,12 @@ def robots():
     return ''
 
 @app.route("/eng/")
-def eng():
+@app.route("/heb/")
+def no_listing():
     return redirect('/', code=302)
 
-@app.route("/eng/<string:name>")
-def eng_course(name):
-    return course(name, 'eng')
-
-def course(name, lang):
+@app.route("/<any(eng, heb):lang>/<string:name>")
+def eng_course(lang, name):
     course_file = os.path.join(root, 'courses', lang, name + '.json')
     schedule = read_schedule(name)
     if os.path.exists(course_file):
@@ -35,14 +33,6 @@ def course(name, lang):
             title      = read_titles(lang),
         )
     abort(404)
-
-@app.route("/heb/")
-def heb():
-    return redirect('/', code=302)
-
-@app.route("/heb/<string:name>")
-def heb_course(name):
-    return course(name, 'heb')
 
 
 @app.route("/<string:name>")

@@ -104,5 +104,8 @@
 
 {% include 'incl/contact.html' %}
 
+{% if course.img %}
+<img src="/static/{{ course.img }}">
+{% endif %}
 
 {% include 'incl/footer.html' %}

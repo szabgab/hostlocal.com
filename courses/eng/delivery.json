@@ -110,11 +110,13 @@
         "<a href=\"https://www.infoq.com/news/2018/06/developers-should-abandon-agile\">Ron Jeffries Says Developers Should Abandon Agile</a>",
         "<a href=\"https://ronjeffries.com/articles/018-01ff/abandon-1/\">Developers Should Abandon Agile</a> by Ron Jeffries.",
         "<a href=\"http://stateofagile.versionone.com/\">State of Agile</a> Collabnet and VersionOne survey.",
-        "<a href=\"https://puppet.com/resources/whitepaper/state-of-devops-report\">State of DevOps</a> Puppet labs report."
+        "<a href=\"https://puppet.com/resources/whitepaper/state-of-devops-report\">State of DevOps</a> Puppet labs report.",
+        "<a href=\"https://12factor.net/\">The Twelve-Factor App</a>",
+        "<a href=\"http://ddegrandis.com/\">Dominica DeGrandis</a>"
     ],
     "other": [
         "<a href=\"http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/\">No, You are not Dumb! Programmers do spend a lot of time Understanding Code...</a> links to surveys."
     ],
-    "img": "delivery-2019-04-17.png"
+    "ximg": "delivery-2019-04-17.png"
 }
 

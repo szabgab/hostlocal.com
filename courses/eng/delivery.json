@@ -38,7 +38,7 @@
     ],
     "syllabus": [
         {
-            "title": "Content",
+            "title": "Topics",
             "entries": [
                 "Value chain",
                 "Deployment pipeline",
@@ -61,6 +61,18 @@
                 "Continuous Delivery",
                 "Continuous Improvement",
                 "Top-down and bottom-up approaches"
+            ]
+        },
+        {
+            "title": "Version Control strategies",
+            "entries": [
+                "A single system (e.g. web application)",
+                "Handling software with multiple versions deployed at clients.",
+                "Strategies for A/B testing",
+                "Stable master",
+                "Short-lived feature branches",
+                "Long feature branches",
+                "Rebase or not to rebase"
             ]
         },
         {
@@ -112,7 +124,8 @@
         "<a href=\"http://stateofagile.versionone.com/\">State of Agile</a> Collabnet and VersionOne survey.",
         "<a href=\"https://puppet.com/resources/whitepaper/state-of-devops-report\">State of DevOps</a> Puppet labs report.",
         "<a href=\"https://12factor.net/\">The Twelve-Factor App</a>",
-        "<a href=\"http://ddegrandis.com/\">Dominica DeGrandis</a>"
+        "<a href=\"https://www.amazon.com/Making-Work-Visible-Exposing-Optimize/dp/1942788150\">Making Work Visible: Exposing Time Theft to Optimize Work & Flow</a> by <a href=\"http://ddegrandis.com/\">Dominica DeGrandis</a>",
+        "<a href=\"https://itrevolution.com/\">IT Revolution</a>"
     ],
     "other": [
         "<a href=\"http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/\">No, You are not Dumb! Programmers do spend a lot of time Understanding Code...</a> links to surveys."

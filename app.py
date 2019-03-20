@@ -64,7 +64,7 @@ def sitemap():
     for course in os.listdir( os.path.join(root, 'courses', 'eng') ):
         xml += """
   <url>
-    <loc>https://hostlocal.com/{}</loc>
+    <loc>https://hostlocal.com/eng/{}</loc>
     <lastmod>2019-03-10</lastmod>
   </url>""".format(course[0:-5])
 

@@ -17,10 +17,10 @@ def home():
 @lunch.route("/lunch/register", methods=['GET', 'POST'])
 def register():
     email = request.form.get('email')
-    if email:
-        if validate_email(email):
-            return 'sent to ' + email
-        else:
-            return "Invalid e-mail address"
-    return render_template('lunch/register.html')
+    if not email:
+        return render_template('lunch/register.html')
+
+    if not validate_email(email):
+        return "Invalid e-mail address"
+    return 'sent to ' + email
 

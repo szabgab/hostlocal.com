@@ -21,6 +21,7 @@ def test_app(tmpdir):
         'server': 'localhost',
         'username': '',
         'password': '',
+        'dbname':   'test_lunch',
     }
     config_file = os.path.join(tdir, 'test_db.yaml')
     os.environ['LUNCH_CONFIG_FILE'] = config_file

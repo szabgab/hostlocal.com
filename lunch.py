@@ -68,5 +68,5 @@ def get_db():
     else:
         connector = "mongodb://{}".format(config["server"])
     client = MongoClient(connector)
-    return(client.pydigger)
+    return(client[config['dbname']])
 

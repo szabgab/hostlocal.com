@@ -3,7 +3,6 @@ import os
 import json
 import fcntl
 
-# TODO flock!
 @contextmanager
 def database(db_file):
     if not os.path.exists(db_file):
@@ -18,6 +17,6 @@ def database(db_file):
         try:
             yield data
         finally:
-            fh.seek(0, 0)
+            fh.seek(0, os.SEEK_SET)
             json.dump(data, fh, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
 

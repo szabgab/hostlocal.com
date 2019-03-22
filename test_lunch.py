@@ -1,4 +1,5 @@
 import lunch
+import yaml
 import os
 
 _to = None
@@ -15,9 +16,19 @@ lunch.sendmail = _capture_mail
 def test_app(tmpdir):
     tdir = str(tmpdir)
     print(tdir)
-    lunch.db_file = os.path.join(tdir, 'test_db.json')
+
+    config = {
+        'server': 'localhost',
+        'username': '',
+        'password': '',
+    }
+    config_file = os.path.join(tdir, 'test_db.yaml')
+    os.environ['LUNCH_CONFIG_FILE'] = config_file
+    with open(config_file, 'w') as yaml_file:
+        yaml.dump(config, yaml_file, default_flow_style=False)
 
     me = lunch.lunch.test_client()
+
 
     rv = me.get('/lunch/')
     assert b'<h1>Lunch</h1>' in rv.data

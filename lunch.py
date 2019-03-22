@@ -3,15 +3,11 @@ import time
 import json
 import random
 import string
-import uuid
+import yaml
 from validate_email import validate_email
 from flask import Flask, render_template, redirect, abort, request, Response
 lunch = Flask(__name__)
-
-from mydb import database
-
-
-db_file = 'db.json'
+from pymongo import MongoClient
 
 @lunch.route("/")
 def root():
@@ -34,15 +30,13 @@ def register():
 
     code = str(int(time.time())) + ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(20))
 
-    uid = str(uuid.uuid1())
-
-    with database(db_file) as data:
-        data['users'][uid] = {
+    db = get_db()
+    entry = {
             'email': email,
             'verify_code': code,
             'verify_code_timestamp': time.time(),
-        }
-
+    }
+    db.people.insert_one(entry)
     sendmail(email, code)
     return 'sent to ' + email
 
@@ -61,5 +55,18 @@ def sendmail(to, code):
 #def custom_401(error):
 #    return Response('Need to login first.', 401, {})
 
-
+def get_db():
+    config_file = os.environ.get('LUNCH_CONFIG_FILE')
+    if not config_file:
+        root = os.path.dirname(os.path.dirname(__file__))
+        config_file = os.path.join(root, "config.yml")
+    print(config_file)
+    with open(config_file) as fh:
+        config = yaml.load(fh)
+    if config["username"] and config["password"]:
+        connector = "mongodb://{}:{}@{}".format(config["username"], config["password"], config["server"])
+    else:
+        connector = "mongodb://{}".format(config["server"])
+    client = MongoClient(connector)
+    return(client.pydigger)
 

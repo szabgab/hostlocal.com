@@ -5,7 +5,7 @@ import random
 import string
 import uuid
 from validate_email import validate_email
-from flask import Flask, render_template, redirect, abort, request
+from flask import Flask, render_template, redirect, abort, request, Response
 lunch = Flask(__name__)
 
 from mydb import database
@@ -50,8 +50,16 @@ def register():
 def verify(code):
     return 'verified'
 
+@lunch.route("/lunch/profile")
+def profile():
+    abort(401)
+
 def sendmail(to, code):
     pass
+
+#@lunch.errorhandler(401)
+#def custom_401(error):
+#    return Response('Need to login first.', 401, {})
 
 
 

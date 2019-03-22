@@ -47,6 +47,15 @@ def test_app(tmpdir):
     rv = me.get('/lunch/verify/' + _code)
     assert b'verified' in rv.data
 
+    rv = me.get('/lunch/profile')
+    assert rv.status_code == 401 # '401 UNAUTHORIZED'
+    #print(rv.data)
 
-   # TODO: check that we send out an e-mail with a unique code in a link to be clicked
-   # TODO: click on the link to make the e-mail verified and give access to the site
+    # send cookies
+
+    #assert email in str(rv.data)
+
+    #rv = me.post('/lunch/profile/', data=dict(
+    #    name='Foo Bar',
+    #))
+

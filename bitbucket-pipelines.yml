@@ -13,10 +13,3 @@ pipelines:
         script:
           - pip install -r requirements.txt
           - pytest
-        services:
-          - mongo
-
-definitions:
-  services:
-    mongo:
-      image: mongo

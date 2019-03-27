@@ -1,11 +1,5 @@
 [
     {
-         "date": "2019.04.17 09:00-13:00",
-         "location": "Alon building, Yigal Alon St 94, Tel Aviv",
-         "course": "delivery",
-         "registration": "https://www.eventbrite.com/e/from-idea-to-delivery-in-less-than-4-hours-tickets-58927879875"
-    },
-    {
          "date": "2019.04.28-29 09:00-12:30",
          "location": "Alon building, Yigal Alon St 94, Tel Aviv",
          "course": "advanced-git",

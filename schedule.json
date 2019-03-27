@@ -10,11 +10,5 @@
          "location": "Alon building, Yigal Alon St 94, Tel Aviv",
          "course": "advanced-git",
          "registration": "https://www.eventbrite.com/e/advanced-git-methodologies-and-workflows-tickets-58568861040"
-    },
-    {
-         "date": "2019.04.30-05.01 09:00-12:30",
-         "location": "HaShahar Building, Ariel Sharon St 4, Giv'atayim",
-         "course": "testing-python",
-         "registration": "https://www.eventbrite.com/e/testing-and-test-automation-in-python-tickets-58586633197"
     }
 ]

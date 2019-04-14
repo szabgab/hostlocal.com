@@ -1,0 +1,97 @@
+{
+    "text": [
+       "This course will help you get started using Git for version control.",
+       "It is good for people who have used other version control tools and also for people who have never used any version control system.",
+       "This course provides the necessary knowledge to get started using Git. To make sure one is not afraid of the tool and can use it to her/his advantage."
+    ],
+    "title": "Version Control with Git",
+    "target_audience": [
+        "Teams of software developers and programmers who need to work co-operatively on projects."
+    ],
+    "objectives" : [
+        "Daily work as developer (checkout/add/commit/diff/etc...)",
+        "Setup branches and merge them together",
+        "Be able to create a local Git repository"
+    ],
+    "course_format": [
+        "Duration of the course is 8 academic hours. Usually 1 full day.",
+        "The course includes approximately 40% hands on lab work."
+    ],
+    "prerequisites": [
+        "An understanding of the soruce code-management issues in team-based software development."
+    ],
+    "syllabus": [
+        {
+            "title": "About Git",
+            "entries": [
+                "The concepts of Git",
+                "Basic concepts of Git",
+                "Git Internals",
+                "Copy-Modify-Merge vs Lock-Modify-Unlock",
+                "Why use Git?",
+                "Who uses Git?"
+            ]
+        },
+        {
+            "title": "The basics",
+            "entries": [
+               "Installing Git on Windows, Linux and Mac",
+               "Setting up your profile (configuing git)",
+               "Creating a local repository"
+            ]
+        },
+        {
+            "title": "Daily use of Git",
+            "entries": [
+               "status",
+               "add  (Adding files, directories to staging)",
+               "rm (Removing files, directories)",
+               "mv (Renaming files and directories)",
+               "checkout",
+               "commit (checking in changes)",
+               "diff (Viewing changes)",
+               "log (Viewing the log, Finding out what you, and others did)",
+               "Making a change"
+            ]
+        },
+        {
+            "title": "Working with branches",
+            "entries": [
+               "Branching",
+               "Merging",
+               "Conflict resolution",
+               "Tagging"
+            ]
+        },
+        {
+            "title": "Working with a remote repository",
+            "entries": [
+                "Cloning a remote repository",
+                "pull",
+                "push",
+                "Peer networks",
+                "Star networks"
+            ]
+        },
+        {
+            "title": "Other",
+            "entries": [
+               "Ignoring generated and other unwanted files",
+               "Using gitk to explore history",
+               "Stashing files while doing something else",
+               "Finding out who did what (browsing log messages)",
+               "reset (Removing commits from the repository)",
+               "revert (Examining and reverting changes)",
+               "Binary files",
+               "Getting snapshots (dates and tagging)"
+            ]
+        },
+        {
+            "title": "Workflow",
+            "entries": [
+                "The standard workflow using Git",
+                "Git flow a recommended workflow"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "title": "Advanced Python Programming",
+    "text" : [
+    ],
+    "target_audience": [
+        "This is an advanced Python course suitable for people who already have Python programming background"
+    ],
+    "objectives": [
+       "To master the rich set of Python libraries and modules.",
+       "Use Object Oriented programming techniques"
+    ],
+    "course_format": [
+        "Duration of the course is 24-32 academic hours. (Usually 3-4 days).",
+        "The course includes approximately 40% hands on lab work.",
+        "In the 4 day long version we allocate more time for exercises and have more time for individual help."
+    ],
+    "prerequisites": [
+        "Beginner Python course",
+        "Experience with the basics of Python"
+    ],
+    "syllabus": [
+        {
+            "title": "Data types advanced programming techniques",
+            "entries": [
+                "Advanced uses of built-in data types (including slices on sequences)",
+                "Functional programming (lambda, map, reduce, filter, zip)",
+                "Comprehensions (list, dictionary, and set)"
+            ]
+        },
+        {
+            "title": "Object Oriented Programming in Python",
+            "entries": [
+                "Objects in Python",
+                "Classes",
+                "Instances",
+                "Scoping issues",
+                "Class methods",
+                "Instance methods",
+                "Properties",
+                "Overloading (with and without the operator module)"
+            ]
+        },
+        {
+            "title": "Iterators and Generators",
+            "entries": [
+                "Iterators (including sorted and reversed, and use of itertools)",
+                "Generators (including generator comprehensions and pipelines)",
+                "Decorators"
+            ]
+         },
+         {
+             "title": "Advanced programming techniques",
+             "entries": [
+                "Unit Test Framework (brief introduction) ",
+                "The 'with' statement",
+                "Optimizing Python code",
+                "Design patterns",
+                "Forks to processes and threads",
+                "Networking, Servers & Clients - time permitting",
+                "Asynchronous programming in Python"
+             ]
+         },
+         {
+              "title": "Web development",
+              "entries": [
+                "Web development using WSGI",
+                "Web development using Flask"
+            ]
+        }
+    ]
+}

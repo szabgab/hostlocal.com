@@ -1,10 +1,10 @@
 {
+    "title": "Version Control with Git",
     "text": [
        "This course will help you get started using Git for version control.",
        "It is good for people who have used other version control tools and also for people who have never used any version control system.",
        "This course provides the necessary knowledge to get started using Git. To make sure one is not afraid of the tool and can use it to her/his advantage."
     ],
-    "title": "Version Control with Git",
     "target_audience": [
         "Teams of software developers and programmers who need to work co-operatively on projects."
     ],
@@ -84,13 +84,6 @@
                "revert (Examining and reverting changes)",
                "Binary files",
                "Getting snapshots (dates and tagging)"
-            ]
-        },
-        {
-            "title": "Workflow",
-            "entries": [
-                "The standard workflow using Git",
-                "Git flow a recommended workflow"
             ]
         }
     ]

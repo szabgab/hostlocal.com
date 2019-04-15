@@ -26,8 +26,14 @@
                 "stash, to allow for quick switching of work.",
                 "rebase, to make history smoother.",
                 "bisect, to quickly find the change that broke the code.",
+                "Revert changes",
+                "Cherry Picking",
                 "Interactive commit",
-                "Interactive rebase"
+                "Interactive rebase",
+                "Squashing commits",
+                "Advanced log history searches",
+                "Building custom command using aliases",
+                "Fix failed and abandoned merge"
             ]
         },
         {

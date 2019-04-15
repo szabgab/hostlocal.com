@@ -1,0 +1,53 @@
+{
+    "title": "Learning Regular Expressions",
+    "text": [
+        "Regular Expressions are invaluable to today's tasks.",
+        "The obvious proof is that after many years that they were only available in a relatively small set of languages now they are first class citizens in most of the modern high-level languages such as Java, all the .NET family (e.g. C++, C# and VB.NET), Python, Ruby, Tcl, Javascript, PHP and of course Perl.",
+        "",
+        "While the implementation of Regular Expressions is different in the various languages and tools they have a large common part. In this course first we'll learn the generic approach to regular expressions and then dive into several languages and see the specific issues related to those languages. In addition we'll look at how to use regular expressions in the tools we use, such as editors, IDEs, etc.",
+        "Specifically we are going to look at examples in Java, C#, Python, and Perl.",
+        "During the class we will explore the algorithm used internally by the various regex engines. Understanding this algorithm will allow us to build better regular expressions, to know which one of the matches the tool will find among several possibilities, and which regexes will be faster than others.",
+        "During this discussion we'll pause to discuss practical applications and observe common mistakes. We'll examine the frequently misunderstood concept of greed, and how does it work combined with eagerness.",
+        "We will look at examples for applying regular expressions on Unicode characters with a focus on how to deal with Hebrew text. We'll also look at a number of examples for solving common problems."
+    ],
+    "target_audience": [
+        "Programmers and Software Engineers who work in one of the high-level languages who would like to expand their knowledge and improve their own value."
+    ],
+    "objectives": [
+        "To understand how the Regular Expression engine works",
+        "To learn the syntax of the particular regex flavor used in your language",
+        "To be able to write robust Regular Expressions"
+    ],
+    "course_format": [
+        "Duration of the course: 16 academic hours. Approximately 40% hands on lab work."
+    ],
+    "prerequisites": [
+        "Good command (at least 1 year practical work) in your chosen programming language(s) (Java, C#, C++, VB.NET, Perl, Python, Ruby, Javascript, Tcl, PHP)."
+    ],
+    "syllabus": [
+        {
+            "title": "Content",
+            "entries": [
+               "Introduction to Regular Expressions - Simple Regexes",
+               "Overview of various tools (egrep, vi, .NET, Java, VB.NET, Perl,)",
+               "Inside the Regex Engine ",
+               "Backtracking ",
+               "Quantifiers ",
+               "Greed ",
+               "Anti-greed ",
+               "Anchors",
+               "Back-references",
+               "Mastering Regular Expressions",
+               "Global Matching",
+               "Substitution",
+               "Common Mistakes",
+               "Crafting your regular expression",
+               "Debugging regular expressions",
+               "Examples",
+               "Exercises",
+               "Sexeger"
+            ]
+        }
+   ]
+}
+

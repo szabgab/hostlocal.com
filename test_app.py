@@ -1,5 +1,10 @@
 import app
 
+import os
+import json
+
+root = os.path.dirname( __file__ )
+
 def test_app():
     me = app.app.test_client()
 
@@ -21,4 +26,11 @@ def test_app():
     rv = me.get('/eng/')
     assert rv.status == '302 FOUND'
     assert rv.headers['Location'] == 'http://localhost/'
+
+def test_courses():
+    for lang in ['eng', 'heb']:
+        for course in os.listdir(os.path.join(root, 'courses', lang)):
+            course_file = os.path.join(root, 'courses', lang, course)
+            with open(course_file) as fh:
+                course = json.load(fh)
 

@@ -1,0 +1,185 @@
+{
+    "title": "Bash Scripting",
+    "text" : [
+    ],
+    "objectives": [
+        "To be able to write and maintain scripts written in Bash"
+    ],
+    "course_format": [
+        "Total length of the course is 16-24 academic hours. (2-3 days.)",
+        "About 50% of the time is hands on lab work."
+    ],
+    "target_audience": [
+        "Experienced UNIX/Linux user",
+        "System administrators who would like to save time by automating tasks.",
+        "DevOps engineers who need to automate processes.",
+        "Anyone who needs to make their life on UNIX"
+    ],
+    "prerequisites": [
+        "In order to take this course you must have working knowledge of the UNIX shell.",
+        "Be able to use at least one Unix/Linux editor. Preferably Vim or Emacs."
+    ],
+    "syllabus": [
+        {
+           "title": "Bash and Bash scripts",
+           "entries": [
+               "Shell types",
+               "Advantages of Bash",
+               "Executing commands",
+               "Shell building blocks (syntax, shell commands, shell functions)"
+           ]
+       },
+       {
+           "title": "Writing and debugging scripts",
+           "entries": [
+              "Hello world",
+              "Creating script",
+              "Executing script",
+              "Sh-bang",
+              "Comments",
+              "Debugging"
+           ]
+       },
+       {
+           "title": "The Bash environment",
+           "entries": [
+               "Shell initialization files",
+               "Configuration files",
+               "Variables (Global and Local)",
+               "Creating variables",
+               "Using variables",
+               "Exporting variables",
+               "Strings and Quoting characters",
+               "Shell expansion",
+               "Aliases",
+               "Displaying and changing Options",
+               "Pipelines"
+           ]
+        },
+        {
+            "title": "Wildcards are not Regexes",
+            "entries": [
+               "Wildcards",
+               "Character Classes"
+            ]
+        },
+        {
+            "title": "Regular Expressions",
+            "entries": [
+                "grep, egrep",
+                "Character classes"
+            ]
+        },
+        {
+            "title": "sed (Stream EDitor)",
+            "entries": [
+                "Printing lines containing a pattern",
+                "Deleting lines of input containing a pattern",
+                "Ranges of lines",
+                "Find and replace with sed"
+            ]
+        },
+        {
+            "title": "awk (Gawk The GNU awk programming language)",
+            "entries": [
+               "Getting Started with awk commands",
+               "Printing selected fields",
+               "The input field separator",
+               "The output field separator",
+               "The BEGIN and END blocks",
+               "User defined variables"
+            ]
+         },
+         {
+             "title": "Control Flow and Conditional statements",
+             "entries": [
+                 "if, then, else, fi",
+                 "Checking command line arguments",
+                 "Testing the number of arguments",
+                 "Testing that a file exists",
+                 "Comparison Operators",
+                 "Boolean operations",
+                 "Nested if/then Condition Tests",
+                 "exit status codes",
+                 "case"
+             ]
+         },
+         {
+             "title": "Writing interactive scripts I/O",
+             "entries": [
+                 "Displaying user messages using echo",
+                 "Catching user input using the read built-in command",
+                 "Prompting for user input",
+                 "Redirection and file descriptors",
+                 "File input and output",
+                 "Here documents"
+              ]
+         },
+         {
+             "title": "Loops for Repetitive tasks",
+             "entries": [
+                 "The for loop",
+                 "The while loop",
+                 "The until loop",
+                 "Break and continue",
+                 "Making menus with the select built-in",
+                 "The shift built-in"
+             ]
+          },
+          {
+              "title": "Types of Variables",
+              "entries": [
+                  "Scalars",
+                  "Arrays",
+                  "Constants (readonly variables)",
+                  "Operations on variables",
+                  "Variable assignment",
+                  "Variable substitution"
+              ]
+          },
+          {
+              "title": "Functions",
+              "entries": [
+                 "Function syntax",
+                 "Positional parameters in functions",
+                 "Listing functions"
+              ]
+          },
+          {
+              "title": "Catching signals",
+              "entries": [
+                  "What are Signals",
+                  "How to send signals",
+                  "Trapping signals"
+              ]
+          },
+          {
+               "title": "Useful shell commands",
+               "entries": [
+                  "awk",
+                  "cat",
+                  "cd",
+                  "chgrp",
+                  "chmod",
+                  "chown",
+                  "cp",
+                  "cut",
+                  "echo",
+                  "egrep",
+                  "exit",
+                  "getops",
+                  "grep",
+                  "head",
+                  "ls",
+                  "mv",
+                  "pwd",
+                  "sed",
+                  "sort",
+                  "tail",
+                  "touch",
+                  "uniq",
+                  "wc"
+             ]
+         }
+    }
+}

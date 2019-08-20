@@ -41,7 +41,9 @@
                 "Software licensing model (Closed Source, Share-ware, Open Source, Free Software)",
                 "Software distribution model (packaged, service, application).",
                 "Single core, multi core, cluster",
-                "Complexity - run time, memory usage"
+                "Complexity - run time, memory usage",
+                "What is the Internet?",
+                "What is the Cloud?"
             ]
         },
         {

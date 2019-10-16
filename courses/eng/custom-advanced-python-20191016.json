@@ -1,8 +1,7 @@
 {
     "course_format": [
-        "Duration of the course is 40 academic hours. (Usually 5 days).",
-        "The course includes approximately 40% hands on lab work.",
-        "In the 4 day long version we allocate more time for exercises and have more time for individual help."
+        "Duration of the course is 40 academic hours. (5 days 9:00-17:00).",
+        "The course includes approximately 40% hands on lab work."
     ],
     "objectives": [
         "To master the rich set of Python libraries and modules.",
@@ -14,6 +13,21 @@
         "Experience with the basics of Python"
     ],
     "syllabus": [
+        {
+            "entries": [
+                "Lists",
+                "List slices",
+                "Tuples",
+                "Dictionaries (hashes)",
+                "Sets",
+                "Sorting",
+                "Queues",
+                "Stack",
+                "Collections",
+                "Mutable and immutable"
+            ],
+            "title": "Collection types and operators"
+        },
         {
             "entries": [
                 "Advanced uses of built-in data types (including slices on sequences).",
@@ -47,13 +61,22 @@
             "entries": [
                 "Unit Test Framework (brief introduction) ",
                 "The 'with' statement",
-                "Optimizing Python code",
-                "Design patterns",
-                "Forks to processes and threads",
-                "Networking, Servers & Clients - time permitting",
-                "Asynchronous programming in Python"
+                "Design patterns"
             ],
             "title": "Advanced programming techniques"
+        },
+        {
+            "entries": [
+                "Optimizing Python code",
+                "Parallel processing",
+                "Forks to processes and threads",
+                "Asynchronous programming in Python",
+                "Memory usage",
+                "Complexity Analyzis",
+                "Profiling code to find the bottleneck",
+                "Case Study: Reducing run-time from 24 hours to 5 minutes"
+            ],
+            "title": "Optimizations"
         },
         {
             "entries": [
@@ -68,11 +91,18 @@
         },
         {
             "entries": [
-                "NumPy",
-                "Pandas",
+                "Distributable package in source code",
+                "Distributable compiled Python libraries",
+                "Stand-alone executable binaries"
+            ],
+            "title": "Distributing Python-based applications"
+        },
+        {
+            "entries": [
+                "NumPy (Array, Transformations)",
+                "Pandas (Series, Data Frames, Panels, API)",
                 "SciPy",
-                "Matplotlib",
-                "Seaborn",
+                "Visualization and Plotting including 3D with Matplotlib and Seaborn",
                 "Comparing with Matlab and R"
             ],
             "title": "The Scientific libraries"
@@ -82,5 +112,5 @@
         "This is an advanced Python course suitable for people who already have Python programming background."
     ],
     "text": [],
-    "title": "Advanced Python Programming"
+    "title": "Custom Advanced Python Programming 2019.10.16"
 }

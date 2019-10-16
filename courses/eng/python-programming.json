@@ -34,12 +34,27 @@
             "entries": [
                 "Strings",
                 "Numbers",
-                "Lists (arrays)",
+                "Split",
+                "String slices",
+                "Immputable strings"
+            ],
+            "title": "Scalar types and operators"
+        },
+        {
+            "entries": [
+                "Lists",
+                "List slices",
                 "Tuples",
                 "Dictionaries (hashes)",
-                "Sorting"
+                "Sets",
+                "Sorting",
+                "Queues",
+                "Stack",
+                "Collections",
+                "Iterables",
+                "Mutable and immutable"
             ],
-            "title": "Types and operators"
+            "title": "Collection types and operators"
         },
         {
             "entries": [
@@ -86,7 +101,8 @@
                 "Modifier flags",
                 "Anchors",
                 "Back-references",
-                "Substitution"
+                "Substitution",
+                "Split"
             ],
             "title": "Regular expression (pattern matching)"
         },

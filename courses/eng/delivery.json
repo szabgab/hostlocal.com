@@ -1,101 +1,17 @@
 {
-    "title": "From idea to delivery in less than 4 hours",
-    "text": [
-      "A presentation and discussion about fast and reliable software development.",
-      "",
-      "Our goal is to be able to get from a commit to our version control system to a deployed software within a few hours, or if possible, within a few minutes.",
-      "In this 4-hours long session we are going to cover the current best practices of continuous integration and continuous deployment.",
-      "",
-      "The key question in software development projects is that given an idea for a feature or given a bug report, how quickly can we get it in the hands of our customers?",
-      "Being able to deliver the new feature faster means the value realized by the investment will be seen sooner. This is good both for your customers and for your company.",
-      "Traditionally the release cycles of companies were measured by months or even by years. Today, in most of the systems this is unacceptable. Today you need to deliver your software much faster.",
-      "How fast can this happen depends on the type of software you produce and how much control do you have over the delivery of the software, but in many cases this could be measure in minutes or hours",
-      "",
-      "How can you do this?",
-      "How can you do this in a reliable, repeatable, and safe way that does not require heroic after-hour actions by you and by your team?",
-      "In this session we'll go over various aspects of the development - testing - deployment process. We'll see practices employed in different situations.",
-      "We will look at case-studies how this can be done for the product-types your organization has."
+    "course_format": [
+        "4 hours."
     ],
-    "target_audience": [
-        "Tech leaders",
-        "Team Leaders",
-        "QA Manager",
-        "Operations lead",
-        "DevOps lead",
-        "CTO",
-        "VP R&D"
+    "language": [
+        "The course can be given either in English or in Hebrew with slides being in English."
     ],
     "objectives": [
         "To have an understand how one can achieve very short release cycles.",
         "Understand how (if at all) cloud could help your organization.",
         "Have ways on how to get started in your own organizaton."
     ],
-    "course_format": [
-         "4 hours."
-    ],
-    "language": [
-        "The course can be given either in English or in Hebrew with slides being in English."
-    ],
-    "syllabus": [
-        {
-            "title": "Topics",
-            "entries": [
-                "Value chain",
-                "Deployment pipeline",
-                "Waterfall vs Agile vs Lean",
-                "The Wall of Confusion",
-                "DevOps?",
-                "High-performance organizations",
-                "Multitasking",
-                "Batch sizes",
-                "Eliminate waste",
-                "Fast feedback loops",
-                "Andon cord",
-                "Continuous Integration",
-                "Test Driven Development",
-                "Pair programming",
-                "Mob programming",
-                "Refactoring code",
-                "Conways's Law and its application",
-                "Continuous Deployment",
-                "Continuous Delivery",
-                "Continuous Improvement",
-                "Top-down and bottom-up approaches"
-            ]
-        },
-        {
-            "title": "Version Control strategies",
-            "entries": [
-                "A single system (e.g. web application)",
-                "Handling software with multiple versions deployed at clients.",
-                "Strategies for A/B testing",
-                "Stable master",
-                "Short-lived feature branches",
-                "Long feature branches",
-                "Rebase or not to rebase"
-            ]
-        },
-        {
-            "title": "Using the cloud",
-            "entries": [
-                "On Premise infrastructure",
-                "Iaas - Infrastructure as a service",
-                "PaaS - Platform as a service",
-                "SaaS - Software as a service",
-                "Serverless Architecture (Amazon Lamda, Google Functions)"
-            ]
-        },
-        {
-            "title": "Product/Service types",
-            "entries": [
-                "Hardware",
-                "Embedded software",
-                "On-premise application/device",
-                "Desktop Application",
-                "Mobile Application",
-                "Web Application"
-            ]
-        }
+    "other": [
+        "<a href=\"http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/\">No, You are not Dumb! Programmers do spend a lot of time Understanding Code...</a> links to surveys."
     ],
     "resources": [
         "<a href=\"https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592\">The Phoenix project</a> by  Gene Kim, Kevin Behr, George Spafford",
@@ -127,9 +43,92 @@
         "<a href=\"https://www.amazon.com/Making-Work-Visible-Exposing-Optimize/dp/1942788150\">Making Work Visible: Exposing Time Theft to Optimize Work & Flow</a> by <a href=\"http://ddegrandis.com/\">Dominica DeGrandis</a>",
         "<a href=\"https://itrevolution.com/\">IT Revolution</a>"
     ],
-    "other": [
-        "<a href=\"http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/\">No, You are not Dumb! Programmers do spend a lot of time Understanding Code...</a> links to surveys."
+    "syllabus": [
+        {
+            "entries": [
+                "Value chain",
+                "Deployment pipeline",
+                "Waterfall vs Agile vs Lean",
+                "The Wall of Confusion",
+                "DevOps?",
+                "High-performance organizations",
+                "Multitasking",
+                "Batch sizes",
+                "Eliminate waste",
+                "Fast feedback loops",
+                "Andon cord",
+                "Continuous Integration",
+                "Test Driven Development",
+                "Pair programming",
+                "Mob programming",
+                "Refactoring code",
+                "Conways's Law and its application",
+                "Continuous Deployment",
+                "Continuous Delivery",
+                "Continuous Improvement",
+                "Top-down and bottom-up approaches"
+            ],
+            "title": "Topics"
+        },
+        {
+            "entries": [
+                "A single system (e.g. web application)",
+                "Handling software with multiple versions deployed at clients.",
+                "Strategies for A/B testing",
+                "Stable master",
+                "Short-lived feature branches",
+                "Long feature branches",
+                "Rebase or not to rebase"
+            ],
+            "title": "Version Control strategies"
+        },
+        {
+            "entries": [
+                "On Premise infrastructure",
+                "Iaas - Infrastructure as a service",
+                "PaaS - Platform as a service",
+                "SaaS - Software as a service",
+                "Serverless Architecture (Amazon Lamda, Google Functions)"
+            ],
+            "title": "Using the cloud"
+        },
+        {
+            "entries": [
+                "Hardware",
+                "Embedded software",
+                "On-premise application/device",
+                "Desktop Application",
+                "Mobile Application",
+                "Web Application"
+            ],
+            "title": "Product/Service types"
+        }
     ],
+    "target_audience": [
+        "Tech leaders",
+        "Team Leaders",
+        "QA Manager",
+        "Operations lead",
+        "DevOps lead",
+        "CTO",
+        "VP R&D"
+    ],
+    "text": [
+        "A presentation and discussion about fast and reliable software development.",
+        "",
+        "Our goal is to be able to get from a commit to our version control system to a deployed software within a few hours, or if possible, within a few minutes.",
+        "In this 4-hours long session we are going to cover the current best practices of continuous integration and continuous deployment.",
+        "",
+        "The key question in software development projects is that given an idea for a feature or given a bug report, how quickly can we get it in the hands of our customers?",
+        "Being able to deliver the new feature faster means the value realized by the investment will be seen sooner. This is good both for your customers and for your company.",
+        "Traditionally the release cycles of companies were measured by months or even by years. Today, in most of the systems this is unacceptable. Today you need to deliver your software much faster.",
+        "How fast can this happen depends on the type of software you produce and how much control do you have over the delivery of the software, but in many cases this could be measure in minutes or hours",
+        "",
+        "How can you do this?",
+        "How can you do this in a reliable, repeatable, and safe way that does not require heroic after-hour actions by you and by your team?",
+        "In this session we'll go over various aspects of the development - testing - deployment process. We'll see practices employed in different situations.",
+        "We will look at case-studies how this can be done for the product-types your organization has."
+    ],
+    "title": "From idea to delivery in less than 4 hours",
     "ximg": "delivery-2019-04-17.png"
 }
-

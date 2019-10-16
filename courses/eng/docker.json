@@ -1,17 +1,9 @@
 {
-   "title": "Docker",
-     "target_audience": [
-        "Developers",
-        "Tech Leaders",
-        "QA engineers",
-        "DevOps engineers",
-        "Automation engineers"
+    "course_format": [
+        "8 academic hours. (Two half-days)"
     ],
-    "prerequisites": [
-        "Understanding of Linux",
-        "Basic Administrative knowladge of Linux",
-        "At least 1 year of experience in the software development world.",
-        "Bring your own computer where you rights to install new software."
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
     ],
     "objectives": [
         "Understand what problems Docker solves.",
@@ -19,40 +11,39 @@
         "Be able to create basic Docker images.",
         "Be able to run Docker containers"
     ],
-    "course_format": [
-         "8 academic hours. (Two half-days)"
-    ],
-    "language": [
-        "The course is given in Hebrew with slides and materials in English."
+    "prerequisites": [
+        "Understanding of Linux",
+        "Basic Administrative knowladge of Linux",
+        "At least 1 year of experience in the software development world.",
+        "Bring your own computer where you rights to install new software."
     ],
     "syllabus": [
         {
-            "title": "Introduction to Docker",
             "entries": [
                 "What is Docker?",
                 "How can Docker bridge the gap between Developers, QA, and Operations?"
-            ]
+            ],
+            "title": "Introduction to Docker"
         },
         {
-            "title": "Running the first Docker container",
             "entries": [
                 "Install Docker",
                 "Public Docker Images",
                 "Run a Docker contains"
-            ]
+            ],
+            "title": "Running the first Docker container"
         },
         {
-            "title": "Docker Basics",
             "entries": [
                 "Filesystems",
                 "Layers",
                 "Difference between a Docker Image and a Docker Container",
                 "Networks",
                 "Volumes"
-            ]
+            ],
+            "title": "Docker Basics"
         },
         {
-            "title": "Building our first Docker container",
             "entries": [
                 "FROM",
                 "CMD",
@@ -64,17 +55,25 @@
                 "Accessing the disk on the host system.",
                 "Cleaning up the dead containers.",
                 "Mapping ports of the Docker image and the local system."
-            ]
+            ],
+            "title": "Building our first Docker container"
         },
         {
-            "title": "Use cases for Docker",
             "entries": [
                 "Distributing a pre-configured system.",
                 "Distributing a command-line application.",
                 "Distributing a web application.",
                 "Distributing a database system."
-            ]
+            ],
+            "title": "Use cases for Docker"
         }
-    ]
+    ],
+    "target_audience": [
+        "Developers",
+        "Tech Leaders",
+        "QA engineers",
+        "DevOps engineers",
+        "Automation engineers"
+    ],
+    "title": "Docker"
 }
-

@@ -1,5 +1,43 @@
 {
-    "title": "Learning Regular Expressions",
+    "course_format": [
+        "Duration of the course: 16 academic hours. Approximately 40% hands on lab work."
+    ],
+    "objectives": [
+        "To understand how the Regular Expression engine works",
+        "To learn the syntax of the particular regex flavor used in your language",
+        "To be able to write robust Regular Expressions"
+    ],
+    "prerequisites": [
+        "Good command (at least 1 year practical work) in your chosen programming language(s) (Java, C#, Perl, Python, Ruby, Javascript, Tcl, PHP)."
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "Introduction to Regular Expressions - Simple Regexes",
+                "Overview of various tools (egrep, vi, C#, Java, Python, Ruby, Perl,)",
+                "Inside the Regex Engine ",
+                "Backtracking ",
+                "Quantifiers ",
+                "Greed ",
+                "Anti-greed ",
+                "Anchors",
+                "Back-references",
+                "Mastering Regular Expressions",
+                "Global Matching",
+                "Substitution",
+                "Common Mistakes",
+                "Crafting your regular expression",
+                "Debugging regular expressions",
+                "Examples",
+                "Exercises",
+                "Sexeger"
+            ],
+            "title": "Content"
+        }
+    ],
+    "target_audience": [
+        "Programmers and Software Engineers who work in one of the high-level languages who would like to expand their knowledge and improve their own value."
+    ],
     "text": [
         "Regular Expressions are invaluable to today's tasks.",
         "The obvious proof is that after many years that they were only available in a relatively small set of languages now they are first class citizens in most of the modern high-level languages such as Java, C#, Python, Ruby, Tcl, Javascript, PHP, and of course Perl.",
@@ -10,44 +48,5 @@
         "During this discussion we'll pause to discuss practical applications and observe common mistakes. We'll examine the frequently misunderstood concept of greed, and how does it work combined with eagerness.",
         "We will look at examples for applying regular expressions on Unicode characters with a focus on how to deal with Hebrew text. We'll also look at a number of examples for solving common problems."
     ],
-    "target_audience": [
-        "Programmers and Software Engineers who work in one of the high-level languages who would like to expand their knowledge and improve their own value."
-    ],
-    "objectives": [
-        "To understand how the Regular Expression engine works",
-        "To learn the syntax of the particular regex flavor used in your language",
-        "To be able to write robust Regular Expressions"
-    ],
-    "course_format": [
-        "Duration of the course: 16 academic hours. Approximately 40% hands on lab work."
-    ],
-    "prerequisites": [
-        "Good command (at least 1 year practical work) in your chosen programming language(s) (Java, C#, Perl, Python, Ruby, Javascript, Tcl, PHP)."
-    ],
-    "syllabus": [
-        {
-            "title": "Content",
-            "entries": [
-               "Introduction to Regular Expressions - Simple Regexes",
-               "Overview of various tools (egrep, vi, C#, Java, Python, Ruby, Perl,)",
-               "Inside the Regex Engine ",
-               "Backtracking ",
-               "Quantifiers ",
-               "Greed ",
-               "Anti-greed ",
-               "Anchors",
-               "Back-references",
-               "Mastering Regular Expressions",
-               "Global Matching",
-               "Substitution",
-               "Common Mistakes",
-               "Crafting your regular expression",
-               "Debugging regular expressions",
-               "Examples",
-               "Exercises",
-               "Sexeger"
-            ]
-        }
-   ]
+    "title": "Learning Regular Expressions"
 }
-

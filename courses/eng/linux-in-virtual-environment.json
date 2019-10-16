@@ -1,31 +1,23 @@
 {
-  "title": "Getting started with Linux in a local virtual environment",
-    "target_audience": [
-        "Developers",
-        "QA engineers",
-        "DevOps engineers",
-        "Automation engineers"
-    ],
-    "prerequisites": [
-         "General understanding how computers work.",
-         "Bring your own computer where you already have <a href=\"https://www.virtualbox.org/\">VirtualBox</a> installed and where you have the rights to install new software."
-    ],
-    "objectives": [
-            "Have a Linux distribution on the computer brought by the participant",
-            "Be able to use bacis commands in the Linux shell.",
-            "Have directions on how to further learn about the Linux shell.",
-            "Understand what is Unix/Linux.",
-            "Understand the Open Source development model."
-    ],
     "course_format": [
-         "8 academic hours. (Two half-days)"
+        "8 academic hours. (Two half-days)"
     ],
     "language": [
         "The course is given in Hebrew with slides and materials in English."
     ],
+    "objectives": [
+        "Have a Linux distribution on the computer brought by the participant",
+        "Be able to use bacis commands in the Linux shell.",
+        "Have directions on how to further learn about the Linux shell.",
+        "Understand what is Unix/Linux.",
+        "Understand the Open Source development model."
+    ],
+    "prerequisites": [
+        "General understanding how computers work.",
+        "Bring your own computer where you already have <a href=\"https://www.virtualbox.org/\">VirtualBox</a> installed and where you have the rights to install new software."
+    ],
     "syllabus": [
         {
-            "title": "Details",
             "entries": [
                 "Install a Linux distribution on the computer brought by the participant",
                 "Linux with GUI - short review of Linux as a desktop computer.",
@@ -40,8 +32,15 @@
                 "du, df, free, gzip, tar",
                 "Process management ps, htop, jobs, bg, fg",
                 "Environment variables, PATH, etc."
-           ]
-       }
-    ]
+            ],
+            "title": "Details"
+        }
+    ],
+    "target_audience": [
+        "Developers",
+        "QA engineers",
+        "DevOps engineers",
+        "Automation engineers"
+    ],
+    "title": "Getting started with Linux in a local virtual environment"
 }
-

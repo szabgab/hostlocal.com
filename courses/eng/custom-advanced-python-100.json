@@ -1,19 +1,13 @@
 {
-    "title": "Advanced Python Programming",
-    "text" : [
-    ],
-    "target_audience": [
-        "This is an advanced Python course suitable for people who already have Python programming background."
-    ],
-    "objectives": [
-       "To master the rich set of Python libraries and modules.",
-       "Use Object Oriented programming techniques.",
-       "Use various advanced programming techniques available in Python."
-    ],
     "course_format": [
         "Duration of the course is 40 academic hours. (Usually 5 days).",
         "The course includes approximately 40% hands on lab work.",
         "In the 4 day long version we allocate more time for exercises and have more time for individual help."
+    ],
+    "objectives": [
+        "To master the rich set of Python libraries and modules.",
+        "Use Object Oriented programming techniques.",
+        "Use various advanced programming techniques available in Python."
     ],
     "prerequisites": [
         "Beginner Python course",
@@ -21,15 +15,14 @@
     ],
     "syllabus": [
         {
-            "title": "Data types advanced programming techniques",
             "entries": [
                 "Advanced uses of built-in data types (including slices on sequences).",
                 "Functional programming (lambda, map, reduce, filter, zip).",
                 "Comprehensions (list, dictionary, and set)."
-            ]
+            ],
+            "title": "Data types advanced programming techniques"
         },
         {
-            "title": "Object Oriented Programming in Python",
             "entries": [
                 "Objects in Python",
                 "Classes",
@@ -39,19 +32,19 @@
                 "Instance methods",
                 "Properties",
                 "Overloading (with and without the operator module)."
-            ]
+            ],
+            "title": "Object Oriented Programming in Python"
         },
         {
-            "title": "Iterators and Generators",
             "entries": [
                 "Iterators (including sorted and reversed, and use of itertools)",
                 "Generators (including generator comprehensions and pipelines)",
                 "Decorators"
-            ]
-         },
-         {
-             "title": "Advanced programming techniques",
-             "entries": [
+            ],
+            "title": "Iterators and Generators"
+        },
+        {
+            "entries": [
                 "Unit Test Framework (brief introduction) ",
                 "The 'with' statement",
                 "Optimizing Python code",
@@ -59,21 +52,21 @@
                 "Forks to processes and threads",
                 "Networking, Servers & Clients - time permitting",
                 "Asynchronous programming in Python"
-             ]
-         },
-         {
-           "title": "Exception handling",
-           "entries": [
-               "Creating non-fatal warnings",
-               "Catching exceptions",
-               "Handling exceptions",
-               "Throwing a new exception",
-               "The final block",
-               "Creating your own exception"
-           ]
-         },
+            ],
+            "title": "Advanced programming techniques"
+        },
         {
-            "title": "The Scientific libraries",
+            "entries": [
+                "Creating non-fatal warnings",
+                "Catching exceptions",
+                "Handling exceptions",
+                "Throwing a new exception",
+                "The final block",
+                "Creating your own exception"
+            ],
+            "title": "Exception handling"
+        },
+        {
             "entries": [
                 "NumPy",
                 "Pandas",
@@ -81,7 +74,13 @@
                 "Matplotlib",
                 "Seaborn",
                 "Comparing with Matlab and R"
-            ]
+            ],
+            "title": "The Scientific libraries"
         }
-    ]
+    ],
+    "target_audience": [
+        "This is an advanced Python course suitable for people who already have Python programming background."
+    ],
+    "text": [],
+    "title": "Advanced Python Programming"
 }

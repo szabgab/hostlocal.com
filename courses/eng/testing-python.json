@@ -1,30 +1,22 @@
 {
-    "title": "Testing and test-automation in Python",
-    "target_audience": [
-           "Developers",
-           "QA engineers",
-           "DevOps engineers",
-           "Automation engineers"
-    ],
-    "prerequisites": [
-         "At least 1 year experience programming in Python.",
-         "Bring your own computer where you already have Python installed and where you have the rights to install new software."
-    ],
-    "objectives": [
-         "Be able to write unit, integration, and acceptance tests in Python.",
-         "Understand regression testing.",
-         "Understand Continuous Integration and how to use it with Python.",
-         "Be able to test various types of application: web based, CLI, databases (both SQL, and NoSQL), cloud-based (AWS, GCP)"
-    ],
     "course_format": [
         "8 academic hours. (Two half-days)"
     ],
     "language": [
         "The course is given in Hebrew with slides and materials in English."
     ],
+    "objectives": [
+        "Be able to write unit, integration, and acceptance tests in Python.",
+        "Understand regression testing.",
+        "Understand Continuous Integration and how to use it with Python.",
+        "Be able to test various types of application: web based, CLI, databases (both SQL, and NoSQL), cloud-based (AWS, GCP)"
+    ],
+    "prerequisites": [
+        "At least 1 year experience programming in Python.",
+        "Bring your own computer where you already have Python installed and where you have the rights to install new software."
+    ],
     "syllabus": [
         {
-            "title": "Details",
             "entries": [
                 "Short review of rhe Unit-test package and doctest.",
                 "Getting started with testing: top-down and bottom-up.",
@@ -46,8 +38,15 @@
                 "Verifying the proper exceptions are raised.",
                 "Testing how the application behaves when a third-party API breaks.",
                 "Faking random numbers for testing"
-            ]
+            ],
+            "title": "Details"
         }
-    ]
+    ],
+    "target_audience": [
+        "Developers",
+        "QA engineers",
+        "DevOps engineers",
+        "Automation engineers"
+    ],
+    "title": "Testing and test-automation in Python"
 }
-

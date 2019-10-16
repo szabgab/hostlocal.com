@@ -1,27 +1,19 @@
 {
-    "title": "Advanced Git, methodologies and workflows",
-    "target_audience": [
-        "Developers",
-        "QA engineers",
-        "DevOps engineers",
-        "Automation engineers"
+    "course_format": [
+        "8 academic hours. (One full day or two half-days)"
+    ],
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
+    ],
+    "objectives": [
+        "Be able to use the advanced features of Git. Understand the various methodologies and be able to use them in the appropriate situations."
     ],
     "prerequisites": [
         "Assuming that the audience already knows the basics of git: (commit, log, push, pull, branch, merge)",
         "Bring your own computer where you already have <a href=\"https://git-scm.com/\">Git-SCM</a> installed and where you have the rights to install new software."
     ],
-    "objectives": [
-        "Be able to use the advanced features of Git. Understand the various methodologies and be able to use them in the appropriate situations."
-    ],
-    "course_format": [
-         "8 academic hours. (One full day or two half-days)"
-    ],
-    "language": [
-        "The course is given in Hebrew with slides and materials in English."
-    ],
     "syllabus": [
         {
-            "title": "Advanced commands",
             "entries": [
                 "stash, to allow for quick switching of work.",
                 "rebase, to make history smoother.",
@@ -34,10 +26,10 @@
                 "Advanced log history searches",
                 "Building custom command using aliases",
                 "Fix failed and abandoned merge"
-            ]
+            ],
+            "title": "Advanced commands"
         },
         {
-            "title": "Introducing several methodologies, discussing the advantages and disadvantages of them.",
             "entries": [
                 "Single master centralized workflow.",
                 "Short feature branches.",
@@ -45,7 +37,15 @@
                 "GitFlow (feature branches, bug-fix branches, development branch, release branch)",
                 "Forking workflow with multiple remote repositories.",
                 "Working with Pull-requests."
-            ]
+            ],
+            "title": "Introducing several methodologies, discussing the advantages and disadvantages of them."
         }
-    ]
+    ],
+    "target_audience": [
+        "Developers",
+        "QA engineers",
+        "DevOps engineers",
+        "Automation engineers"
+    ],
+    "title": "Advanced Git, methodologies and workflows"
 }

@@ -91,6 +91,13 @@
         },
         {
             "entries": [
+                "Using .NET classes from Python",
+                "Parameter passing to .NET methods"
+            ],
+            "title": "Integration with .NET"
+        },
+        {
+            "entries": [
                 "Distributable package in source code",
                 "Distributable compiled Python libraries",
                 "Stand-alone executable binaries"
@@ -103,7 +110,8 @@
                 "Pandas (Series, Data Frames, Panels, API)",
                 "SciPy",
                 "Visualization and Plotting including 3D with Matplotlib and Seaborn",
-                "Comparing with Matlab and R"
+                "Comparing with Matlab and R",
+                "Integrating Python with Matlab"
             ],
             "title": "The Scientific libraries"
         }

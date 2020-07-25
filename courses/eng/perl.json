@@ -37,8 +37,7 @@
                 "Converting Excel or CSV files to database rows and vice verse",
                 "Converting Excel files to XML and vice verse",
                 "Cleaning up temporary files",
-                "Backup of database and the file system used by the application",
-                "Inline::C, Inline::Java, Convert::Binary::C "
+                "Backup of database and the file system used by the application"
             ],
             "title": "Introduction"
         }

@@ -1,0 +1,50 @@
+{
+    "course_format": [
+        "Duration of the course can be 4 hours frontal lecture",
+        "It can be extended by 4 more hours hands-on exercises to fill a day",
+        "There is also a short 1 hour lecture version"
+    ],
+    "objectives": [
+        "To be able to use Perl as a tool in some daily tasks",
+        "To use Perl to automate small tasks need by programmers"
+    ],
+    "prerequisites": [
+        "At least one year experience in one of the high-level language such as Java, C, C++ or C#",
+        "Experience on either Microsoft Windows or Unix/Linux"
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "History, how to install Perl, how to run scripts",
+                "Syntax of the language",
+                "Basic I/O",
+                "Scalar values and variables (numbers and strings)",
+                "Control flow",
+                "Lists and arrays (context)",
+                "Hash (associative arrays)",
+                "Functions, subroutines",
+                "Accessing files",
+                "Interaction with the file system",
+                "Error handling",
+                "Regular Expressions",
+                "Using references",
+                "Using modules",
+                "Using OOP style",
+                "Installing modules on UNIX/Linux and on Windows systems",
+                "Database access, cleaning up old records from the database",
+                "Generating reports on daily activity",
+                "Sending e-mail reports",
+                "Converting Excel or CSV files to database rows and vice verse",
+                "Converting Excel files to XML and vice verse",
+                "Cleaning up temporary files",
+                "Backup of database and the file system used by the application",
+                "Inline::C, Inline::Java, Convert::Binary::C "
+            ],
+            "title": "Introduction"
+        }
+    ],
+    "target_audience": [
+        "Java, C, C++, C# programmers who want to have a tool for daily tasks"
+    ],
+    "title": "Programming Perl"
+}

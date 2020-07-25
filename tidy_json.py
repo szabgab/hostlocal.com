@@ -11,6 +11,10 @@ def tidy(filename):
         json.dump(data, fh, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
 
 for filename in glob.glob("courses/eng/*.json"):
-    tidy(filename)
+    try:
+        tidy(filename)
+    except Exception as err:
+        print(f"Failed for {filename}")
+        print(err)
 
 # vim: expandtab

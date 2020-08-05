@@ -20,50 +20,104 @@
     "syllabus": [
         {
             "entries": [
+                "Why use Docker?",
                 "What is Docker?",
-                "How can Docker bridge the gap between Developers, QA, and Operations?"
+                "How can Docker bridge the gap between Developers, QA, and Operations?",
+                "Installing Docker on Windows, MacOSX, Linux",
+                "Public Docker Images",
+                "Docker Registry / Docker HUB",
+                "Difference between a Docker Image and a Docker Container",
+                "Docker Daemon (Server), Client"
             ],
             "title": "Introduction to Docker"
         },
         {
             "entries": [
-                "Install Docker",
-                "Public Docker Images",
-                "Run a Docker contains"
+                "Run a Docker container - Hello World!",
+                "Download a docker image (pull)",
+                "Docker on the command line",
+                "List docker containers",
+                "Cleaning up the dead containers.",
+                "Remove docker container",
+                "Name a docker container",
+                "List docker images",
+                "Remove docker images"
             ],
             "title": "Running the first Docker container"
         },
         {
             "entries": [
-                "Filesystems",
-                "Layers",
-                "Difference between a Docker Image and a Docker Container",
-                "Networks",
-                "Volumes"
+                "Use the Ubuntu Docker image",
+                "Use the CentOS Docker image",
+                "Install packages in the container",
+                "Create files on the container",
+                "Stop container",
+                "Restart container",
+                "Copy file from container",
+                "Create image from container",
+                "Distribute command line script in an image"
             ],
-            "title": "Docker Basics"
+            "title": "Create a Docker image manually"
         },
         {
             "entries": [
+                "Create simple image",
                 "FROM",
-                "CMD",
-                "COPY",
                 "RUN",
+                "CMD",
+                "ENTRYPOINT",
+                "COPY",
+                "Distributing a command-line application.",
+                "Accessing the disk on the host system.",
                 "WORKDIR",
                 "ENV",
-                "EXPOSE",
-                "Accessing the disk on the host system.",
-                "Cleaning up the dead containers.",
-                "Mapping ports of the Docker image and the local system."
+                "Layers",
+                "Caching",
+                "Tagging an image"
             ],
-            "title": "Building our first Docker container"
+            "title": "Creaet Docker image using Dockerfile"
+        },
+        {
+            "entries": [
+                "Run several Docker images at once",
+                "Rebuild docker image when running with docker-compose",
+                "Run multi-host applications using docker-compose.",
+                "Create an image in the repository (from github)",
+                "Networking with docker-compose"
+            ],
+            "title": "Docker compose"
+        },
+        {
+            "entries": [
+                "ARG",
+                "ADD",
+                "CMD",
+                "COPY",
+                "ENTRYPOINT",
+                "ENV",
+                "EXPOSE",
+                "FROM",
+                "RUN",
+                "WORKDIR"
+            ],
+            "title": "Dockerfile commands"
+        },
+        {
+            "entries": [
+                "Distributing a web application. Flask",
+                "Distribute a web application Flask + Nginx",
+                "Distribute a web application Flask + Nginx + MongoDB",
+                "Mapping ports of the Docker image and the local system.",
+                "EXPOSE"
+            ],
+            "title": "The Python track"
         },
         {
             "entries": [
                 "Distributing a pre-configured system.",
-                "Distributing a command-line application.",
-                "Distributing a web application.",
-                "Distributing a database system."
+                "Distributing a database system.",
+                "Filesystems",
+                "Volumes"
             ],
             "title": "Use cases for Docker"
         }

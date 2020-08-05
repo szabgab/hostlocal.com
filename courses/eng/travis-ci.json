@@ -1,0 +1,51 @@
+{
+    "course_format": [
+        "Duration of the course is 4 academic hours.",
+        "The course includes approximately 40% hands on lab work."
+    ],
+    "objectives": [
+        "To be able to set up a Continuous Integration environment using Travis-CI"
+    ],
+    "prerequisites": [
+        "Basic programming background in either a high-level language such as C, Java or a scripting language such as Shell, VBSscript, Javascript, Perl, Python, PHP or Ruby",
+        "Experience with a text editor like emacs, vi, pico or notepad."
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "Create a an (almost) empty GitHub repository",
+                "Connect to Travis-CI",
+                "Enable Travis-CI on this repository",
+                "See both success and failure"
+            ],
+            "title": "Travis-CI on empty repository"
+        },
+        {
+            "entries": [
+                "Create a simple application in Python (and other languages as requested by the audience)",
+                "Write a simple unit test",
+                "Configure Travis to run the test"
+            ],
+            "title": "Travis-CI for an application"
+        },
+        {
+            "entries": [
+                "Testing Matrix using multiple programming languages",
+                "Setting up single test environment with multiple languages",
+                "Compiling your own language"
+            ],
+            "title": "Travis-CI using multiple languages"
+        },
+        {
+            "entries": [
+                "Application using PostgreSQL database",
+                "Application with MongoDB"
+            ],
+            "title": "Travis-CI and databases"
+        }
+    ],
+    "target_audience": [
+        "This course is for programmers and DevOps or Test Automation engineers who would like to use CI for their GitHub-based project."
+    ],
+    "title": "Continuous Integration with Travis-CI"
+}

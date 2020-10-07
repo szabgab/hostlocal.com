@@ -1,7 +1,8 @@
 {
     "title": "QA - Test Automation using Perl",
     "blurb": [
-        "Perl has been used for years in QA for various tasks such as preparing configuration files before the tests run and parsing log files after the test. In the past few years a lot of extensions have been added to Perl. Now, in addition to the above tasks Perl can already be used in all parts of the automatic test environment. It can be used to test web based application, Networking appliances, Command line tools, Databases and Desktop (GUI) applications.",
+        "Perl has been used for years in QA for various tasks such as preparing configuration files before the tests run and parsing log files after the test. In the past few years a lot of extensions have been added to Perl. Now, in addition to the above tasks Perl can already be used in all parts of the automatic test environment. It can be used to test web based application, Networking appliances, Command line tools, Databases and Desktop (GUI) applications."
+    ],
     "target_audience": [
         "People writing and maintaining Perl scripts, modules, or applications.",
         "QA engineers with some background in Perl already."
@@ -11,7 +12,7 @@
         "Use the Testing frameworks that come with Perl",
         "To be capable to write all kinds of unit and integration tests"
     ],
-    "course_format" [
+    "course_format": [
         "32 academic hours (usually full 4 days).",
         "About 50% hands-on exercise."
     ],

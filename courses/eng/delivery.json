@@ -6,9 +6,9 @@
         "The course can be given either in English or in Hebrew with slides being in English."
     ],
     "objectives": [
-        "To have an understand how one can achieve very short release cycles.",
+        "To have an understand of how one can achieve very short release cycles.",
         "Understand how (if at all) cloud could help your organization.",
-        "Have ways on how to get started in your own organizaton."
+        "Have ways on how to get started in your own organization."
     ],
     "other": [
         "<a href=\"http://blog.architexa.com/2010/05/no-you-are-not-dumb-programmers-do-spend-a-lot-of-time-understanding-code/\">No, You are not Dumb! Programmers do spend a lot of time Understanding Code...</a> links to surveys."
@@ -62,7 +62,7 @@
                 "Pair programming",
                 "Mob programming",
                 "Refactoring code",
-                "Conways's Law and its application",
+                "Conway's Law and its application",
                 "Continuous Deployment",
                 "Continuous Delivery",
                 "Continuous Improvement",

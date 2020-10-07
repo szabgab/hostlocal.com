@@ -13,9 +13,9 @@
     ],
     "prerequisites": [
         "Understanding of Linux",
-        "Basic Administrative knowladge of Linux",
+        "Basic Administrative knowledge of Linux",
         "At least 1 year of experience in the software development world.",
-        "Bring your own computer where you rights to install new software."
+        "Bring a computer where you have rights to install new software."
     ],
     "syllabus": [
         {
@@ -61,7 +61,7 @@
         },
         {
             "entries": [
-                "Create simple image",
+                "Create a simple image",
                 "FROM",
                 "RUN",
                 "CMD",
@@ -75,7 +75,7 @@
                 "Caching",
                 "Tagging an image"
             ],
-            "title": "Creaet Docker image using Dockerfile"
+            "title": "Create a Docker image using Dockerfile"
         },
         {
             "entries": [

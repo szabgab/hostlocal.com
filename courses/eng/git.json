@@ -9,7 +9,7 @@
         "Be able to create a local Git repository"
     ],
     "prerequisites": [
-        "An understanding of the soruce code-management issues in team-based software development."
+        "An understanding of the source code-management issues in team-based software development."
     ],
     "syllabus": [
         {
@@ -26,7 +26,7 @@
         {
             "entries": [
                 "Installing Git on Windows, Linux and Mac",
-                "Setting up your profile (configuing git)",
+                "Setting up your profile (configuring git)",
                 "Creating a local repository"
             ],
             "title": "The basics"
@@ -79,7 +79,7 @@
         }
     ],
     "target_audience": [
-        "Teams of software developers and programmers who need to work co-operatively on projects."
+        "Teams of software developers and programmers who need to work cooperatively on projects."
     ],
     "text": [
         "This course will help you get started using Git for version control.",

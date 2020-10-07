@@ -1,0 +1,58 @@
+{
+    "title": "QA - Test Automation using Perl",
+    "blurb": [
+        "Perl has been used for years in QA for various tasks such as preparing configuration files before the tests run and parsing log files after the test. In the past few years a lot of extensions have been added to Perl. Now, in addition to the above tasks Perl can already be used in all parts of the automatic test environment. It can be used to test web based application, Networking appliances, Command line tools, Databases and Desktop (GUI) applications.",
+    "target_audience": [
+        "People writing and maintaining Perl scripts, modules, or applications.",
+        "QA engineers with some background in Perl already."
+    ],
+    "objectives": [
+        "Learn the importance of automated tests",
+        "Use the Testing frameworks that come with Perl",
+        "To be capable to write all kinds of unit and integration tests"
+    ],
+    "course_format" [
+        "32 academic hours (usually full 4 days).",
+        "About 50% hands-on exercise."
+    ],
+    "prerequisites": [
+        "At least 6 month experience writing Perl code."
+    ],
+    "content": [
+        "First we will learn about the basic tools of testing and the test frameworks available in Perl by looking at unit-tests of Perl modules.",
+        "Then, we will expand our set of tools in order to test other kinds of applications.",
+        "We will look at testing of CLI and Web applications and testing of Network Appliances."
+    ],
+    "syllabus" :[
+        "Introduction to testing, why, when, who and how?",
+        "Writing tests manually",
+        "Simple tests",
+        "Introduction to TAP - the Test Anything Protocol",
+        "Testing tools in Perl for testing Perl Modules (Test::Simple, Test::More)",
+        "Common reporting framework (Test::Harness)",
+        "Extending the testing framework (Test::Builder)",
+        "Test file system parsing application",
+
+        "Command Line Interface applications",
+        "Database testing",
+        "Testing file-systems",
+        "Testing network devices with CLI interface",
+        "Testing Web application",
+        "Testing CGI-based applications",
+        "Testing PSGI-based applications",
+        "Testing Database applications",
+        "Regression testing",
+        "Testing code that has not been written yet (Mocking)",
+        "Testing code with 3rd party APIs",
+        "Writing test to fail",
+        "Bad input",
+        "Testing error messages",
+        "Code Coverage",
+        "Setting up Continuous Integration",
+        "Refactoring Perl code",
+        "TDD - Test Driven Development",
+        "A few words about XP - Extreme Programming",
+        "Building random regression testing tool"
+    ]
+}
+

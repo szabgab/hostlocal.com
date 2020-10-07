@@ -1,0 +1,81 @@
+{
+    "course_format": [
+        "Duration of the course is 8 academic hours.",
+        "The course includes approximately 40% hands on lab work."
+    ],
+    "objectives": [
+        "Use GitHub effectively"
+    ],
+    "prerequisites": [
+        "An understanding of the cloud-based source-code management."
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "What is GitHub",
+                "Creating an account"
+            ],
+            "title": "About GitHub"
+        },
+        {
+            "entries": [
+                "What are Issues",
+                "Opening an Issue",
+                "Tagging issues",
+                "Searching for issues"
+            ],
+            "title": "Issues"
+        },
+        {
+            "entries": [
+                "Basic Markdown format",
+                "Referencing commits",
+                "Referencing issues and Pull-Requests"
+            ],
+            "title": "Markdown used by GitHub"
+        },
+        {
+            "entries": [
+                "Branching",
+                "Merging",
+                "Conflict resolution",
+                "Tagging"
+            ],
+            "title": "Working with branches"
+        },
+        {
+            "entries": [
+                "Forking",
+                "Pull-Requests",
+                "Cloning a remote repository",
+                "pull",
+                "push"
+            ],
+            "title": "Working with a remote repository"
+        },
+        {
+            "entries": [
+                "Creating the first workflow",
+                "Select your container",
+                "Choose your language(s)",
+                "Build matrix",
+                "Compiling code",
+                "Running tests",
+                "Reporting",
+                "Secrets"
+            ],
+            "title": "CI/CD with Github Actions"
+        }
+    ],
+    "target_audience": [
+        "Teams of software developers and programmers who need to work co-operatively on projects.",
+        "DevOps engineers",
+        "Automation engineers"
+    ],
+    "text": [
+        "This course will help you get started using GitHub for version control.",
+        "It is good for people who have used other version control tools and also for people who have never used any cloud-based version control system.",
+        "This course provides the necessary knowledge to get started using GitHub."
+    ],
+    "title": "GitHub"
+}

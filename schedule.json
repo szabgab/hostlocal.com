@@ -1,2 +1,8 @@
 [
+    {
+        "course": "testing-perl",
+        "date": "2020.11.20",
+        "location": "online",
+        "registration": "/registration"
+    }
 ]

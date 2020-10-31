@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import datetime
 from flask import Flask, render_template, redirect, abort
 app = Flask(__name__)
 
@@ -45,7 +46,7 @@ def show_page(name):
     with open(os.path.join(root, 'pages.txt')) as fh:
         for row in fh:
             row = row.rstrip("\n")
-            path, template_file, title = re.split("\s*;\s*", row)
+            path, template_file, title = re.split(r"\s*;\s*", row)
 
             if name == path:
                 app.logger.info(f"Trying to use template file '{template_file}'")
@@ -86,8 +87,14 @@ def sitemap():
     return xml
 
 def read_schedule(name = None):
+    now = datetime.datetime.now()
+    today = now.strftime('%Y.%m.%d')
+
     with open( os.path.join(root, 'schedule.json') ) as fh:
         schedule = json.load(fh)
+
+    # remove old events
+    schedule = list(filter(lambda event: event['date'] > today, schedule))
 
     if name:
         schedule = list(filter(lambda event: event['course'] == name, schedule))

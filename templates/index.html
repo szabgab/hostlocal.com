@@ -33,24 +33,7 @@
     a taste of the courses. Check out the upcoming ones on that page, and consider organizing one at your company.
     <p>
 
-    {% if schedule %}
-        <h2>Schedule</h2>
-        <p>
-         Every month there are a few training classes scheduled at areas where many hi-tech companies have offices to make
-         it easier for all the employees to attend the courses.
-
-        <ul>
-          {% for event in schedule %}
-              <li>
-                  <a href="/eng/{{event.course}}">{{ event.title }}</a>
-                  on {{ event.date }}
-                  in {{ event.location }}
-                  <b><a href="{{ event.registration }}">registration!</a></b>
-              </li>
-          {% endfor %}
-        </ul>
-        </p>
-    {% endif %}
+{% include 'incl/schedule.html' %}
 
     <h2>Available training courses</h2>
     <p>

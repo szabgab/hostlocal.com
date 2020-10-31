@@ -48,6 +48,13 @@ def consulting():
         page_title = "Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python",
     )
 
+@app.route("/registration")
+def consulting():
+    return render_template('registration.html',
+        page_title = "Registration to Training courses",
+    )
+
+
 @app.route("/")
 def home():
     schedule = read_schedule()

@@ -38,14 +38,16 @@ def eng_course(lang, name):
 
 @app.route("/<string:name>")
 def show_page(name):
+    app.logger.info(f"Trying to access '{name}'")
     if name in ['clients.html', 'gabor.html', 'perl.html', 'development.html', 'staff.html', 'contact.html', 'infrastructure.html']:
         return redirect('/', code=302)
 
     with open(os.path.join(root, 'pages.txt')) as fh:
         for row in fh:
             row = row.rstrip("\n")
-            path, template_file, title = row.split(";")
+            path, template_file, title = re.split("\s*;\s*", row)
         if name == path:
+            app.logger.info(f"Trying to use template file '{template_file}'")
             return render_template(template_file,
                 page_title = title,
             )

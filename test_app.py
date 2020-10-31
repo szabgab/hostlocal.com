@@ -11,6 +11,11 @@ def test_app():
     rv = me.get('/')
     assert b'<div><a href="/">Host Local Training</a></div>' in rv.data
 
+    rv = me.get('/consulting')
+    #print(rv.data)
+    assert b'<div><a href="/">Host Local Training</a></div>' in rv.data
+    assert b'<title>Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python</title>', rv.data
+
 
     rv = me.get('/clients.html')
     assert rv.status == '302 FOUND'

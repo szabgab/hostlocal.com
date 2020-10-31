@@ -11,6 +11,8 @@ def test_app():
     rv = me.get('/')
     assert rv.status == '200 OK'
     assert b'<div><a href="/">Host Local Training</a></div>' in rv.data
+    assert b'<h2>Previous clients</h2>' in rv.data
+    assert b'<h2 id="about-gabor">About Gabor Szabo</h2>' in rv.data
     assert b'2020.10.20' not in rv.data # old course
 
     rv = me.get('/consulting')

@@ -1,0 +1,2 @@
+registration;    registration.html; Registration to Training courses
+consulting;      consulting.html;   Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python

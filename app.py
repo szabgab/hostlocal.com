@@ -1,5 +1,6 @@
 import os
 import json
+import re
 from flask import Flask, render_template, redirect, abort
 app = Flask(__name__)
 
@@ -36,23 +37,20 @@ def eng_course(lang, name):
 
 
 @app.route("/<string:name>")
-def page(name):
+def show_page(name):
     if name in ['clients.html', 'gabor.html', 'perl.html', 'development.html', 'staff.html', 'contact.html', 'infrastructure.html']:
         return redirect('/', code=302)
+
+    with open(os.path.join(root, 'pages.txt')) as fh:
+        for row in fh:
+            row = row.rstrip("\n")
+            path, template_file, title = row.split(";")
+        if name == path:
+            return render_template(template_file,
+                page_title = title,
+            )
+
     abort(404)
-
-
-@app.route("/consulting")
-def consulting():
-    return render_template('consulting.html',
-        page_title = "Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python",
-    )
-
-@app.route("/registration")
-def consulting():
-    return render_template('registration.html',
-        page_title = "Registration to Training courses",
-    )
 
 
 @app.route("/")

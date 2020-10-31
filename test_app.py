@@ -9,12 +9,21 @@ def test_app():
     me = app.app.test_client()
 
     rv = me.get('/')
+    assert rv.status == '200 OK'
     assert b'<div><a href="/">Host Local Training</a></div>' in rv.data
 
     rv = me.get('/consulting')
+    assert rv.status == '200 OK'
     #print(rv.data)
     assert b'<div><a href="/">Host Local Training</a></div>' in rv.data
-    assert b'<title>Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python</title>', rv.data
+    assert b'<title>Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python</title>' in rv.data
+
+    rv = me.get('/registration')
+    assert rv.status == '200 OK'
+    #print(rv.data)
+    assert b'<div><a href="/">Host Local Training</a></div>' in rv.data
+    assert b'<title>Registration to Training courses</title>' in rv.data
+
 
 
     rv = me.get('/clients.html')

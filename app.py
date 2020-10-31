@@ -46,11 +46,12 @@ def show_page(name):
         for row in fh:
             row = row.rstrip("\n")
             path, template_file, title = re.split("\s*;\s*", row)
-        if name == path:
-            app.logger.info(f"Trying to use template file '{template_file}'")
-            return render_template(template_file,
-                page_title = title,
-            )
+
+            if name == path:
+                app.logger.info(f"Trying to use template file '{template_file}'")
+                return render_template(template_file,
+                    page_title = title,
+                )
 
     abort(404)
 

@@ -1,3 +1,4 @@
 registration;    registration.html;   Registration to Training courses
 consulting;      consulting.html;     Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python
-python-courses;  python-courses.html; Python Courses onsite or in Zoom
+python-courses;  python-courses.html; Python courses onsite or in Zoom
+perl-courses;    perl-courses.html;   Perl courses onsite or in Zoom

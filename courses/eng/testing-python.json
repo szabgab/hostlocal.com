@@ -2,6 +2,12 @@
     "course_format": [
         "8 academic hours. (Two half-days)"
     ],
+    "keywords": [
+        "Python",
+        "testing",
+        "quality assurance",
+        "automation"
+    ],
     "language": [
         "The course is given in Hebrew with slides and materials in English."
     ],
@@ -47,6 +53,10 @@
         "QA engineers",
         "DevOps engineers",
         "Automation engineers"
+    ],
+    "text": [
+        "This course provides an introduction to the world of testing with Python.",
+        "It starts with an overview of what is the goal of testing and how it can help you improve the speed of development and the reliability of your applications"
     ],
     "title": "Testing and test-automation in Python"
 }

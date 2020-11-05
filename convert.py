@@ -4,12 +4,15 @@ import sys
 import json
 
 # convert my JSON format to the pseudo-XML format used by Brend
+# 300px × 225px  for the IMAGE and
+# 130px × 70px for the THUMBNAIL
 
 def main():
     if len(sys.argv) != 2:
         exit(f"Usage: {sys.argv[0]} FILENAME")
+    convert(sys.argv[1])
 
-    infile = sys.argv[1]
+def convert(infile):
     outfile = re.sub(r'\.json', '.xml', os.path.basename(infile))
     template = get_template()
 
@@ -37,7 +40,7 @@ def main():
     with open(outfile, 'w') as fh:
         fh.write(template)
     #print(template)
-    print(data.keys())
+    #print(data.keys())
 
 
 

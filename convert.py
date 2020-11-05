@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import re
 import os
 import sys
@@ -8,9 +9,10 @@ import json
 # 130px × 70px for the THUMBNAIL
 
 def main():
-    if len(sys.argv) != 2:
-        exit(f"Usage: {sys.argv[0]} FILENAME")
-    convert(sys.argv[1])
+    if len(sys.argv) < 2:
+        exit(f"Usage: {sys.argv[0]} FILENAMEs")
+    for filename in sys.argv[1:]:
+        convert(filename)
 
 def convert(infile):
     outfile = re.sub(r'\.json', '.xml', os.path.basename(infile))

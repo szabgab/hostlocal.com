@@ -13,27 +13,33 @@ def main():
     args = get_args()
     #if len(sys.argv) < 2:
     #    exit(f"Usage: {sys.argv[0]} FILENAMEs")
-    print(args.files)
+    #print(args.files)
     for filename in args.files:
-        convert(filename)
+        convert(args, filename)
 
 def get_args():
     parser = argparse.ArgumentParser()
+    parser.add_argument('--strict', action='store_true')
     parser.add_argument('files',  help="filenames(s)", nargs="+")
     args = parser.parse_args()
     return args
 
-def convert(infile):
+def convert(args, infile):
     outfile = re.sub(r'\.json', '.xml', os.path.basename(infile))
     template = get_template()
 
     with open(infile) as fh:
         data = json.load(fh)
+    if args.strict:
+        for key in ['title', 'text', 'keywords', 'target_audience']:
+            if key not in data:
+                print(f"{infile} missing {key}")
+
     template = re.sub(r'\{\{LANGUAGE}}',         'en', template)
     template = re.sub(r'\{\{MAINTITLE}}',        'Python Courses:', template)
     template = re.sub(r'\{\{TITLE}}',            data['title'], template)
-    template = re.sub(r'\{\{ABSTRACT}}',         '\n'.join(data['text']), template)
-    template = re.sub(r'\{\{KEYWORDS}}',         ', '.join(data['keywords']), template)
+    template = re.sub(r'\{\{ABSTRACT}}',         '\n'.join(data.get('text', [])), template)
+    template = re.sub(r'\{\{KEYWORDS}}',         ', '.join(data.get('keywords', [])), template)
     template = re.sub(r'\{\{SLOGAN}}',           '', template)
     template = re.sub(r'\{\{SLOGAN2}}',          '', template)
     template = re.sub(r'\{\{METADESCRIPTION}}',  '', template)

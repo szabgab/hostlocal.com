@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import argparse
 import re
 import os
 import sys
@@ -9,10 +10,18 @@ import json
 # 130px × 70px for the THUMBNAIL
 
 def main():
-    if len(sys.argv) < 2:
-        exit(f"Usage: {sys.argv[0]} FILENAMEs")
-    for filename in sys.argv[1:]:
+    args = get_args()
+    #if len(sys.argv) < 2:
+    #    exit(f"Usage: {sys.argv[0]} FILENAMEs")
+    print(args.files)
+    for filename in args.files:
         convert(filename)
+
+def get_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('files',  help="filenames(s)", nargs="+")
+    args = parser.parse_args()
+    return args
 
 def convert(infile):
     outfile = re.sub(r'\.json', '.xml', os.path.basename(infile))

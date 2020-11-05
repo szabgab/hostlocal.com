@@ -101,11 +101,25 @@
     </ul>
 {% endif %}
 
+{% if course.keywords %}
+<h2>{{ title.keywords }}</h2>
+<div id="keywords">
+    <ul>
+    {% for word in course.keywords %}
+            <li>{{ word|safe }}</li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+
+
 
 {% include 'incl/contact.html' %}
 
 {% if course.img %}
 <img src="/static/{{ course.img }}">
 {% endif %}
+
 
 {% include 'incl/footer.html' %}

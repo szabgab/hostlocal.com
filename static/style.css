@@ -94,3 +94,25 @@ hr {
 .text {
     margin-bottom: 30px;
 }
+
+
+#keywords ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#keywords li {
+    float: left;
+    margin-left: 20px;
+}
+
+#keywords li:after {
+  content: ", ";
+}
+
+#keywords li:last-child:after {
+    content: "";
+}
+

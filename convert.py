@@ -46,6 +46,11 @@ def convert(args, infile):
     template = re.sub(r'\{\{COST}}',             '', template)
     template = re.sub(r'\{\{TARGET}}',           '\n'.join(data['target_audience']), template)
 
+    template = re.sub(r'\{\{THUMBNAIL}}',        data['pic130'], template)
+    template = re.sub(r'\{\{THUMBNAIL-TXT}}',    data['pic130_text'], template)
+    template = re.sub(r'\{\{IMAGE}}',            data['pic300'], template)
+    template = re.sub(r'\{\{IMAGE-TXT}}',        data['pic300_text'], template)
+
     details = ''
     for part in data['syllabus']:
         details += part['title'] + '\n'
@@ -107,16 +112,16 @@ your specific goals.  Please, don't hesitate to contact us.
 Comprehensive material
 </ADDITIONAL>
 <THUMBNAIL>
-green_python130.png
+{{THUMBNAIL}}
 </THUMBNAIL>
 <THUMBNAIL-TXT>
-Green Tree Python, Public Domain, excerpt from original image from pixabay.com
+{{THUMBNAIL-TXT}}
 </THUMBNAIL-TXT>
 <IMAGE>
-green_python.png
+{{IMAGE}}
 </IMAGE>
 <IMAGE-TXT>
-Green Tree Python, Public Domain, original from pixabay.com
+{{IMAGE-TXT}}
 </IMAGE-TXT>
 '''
 

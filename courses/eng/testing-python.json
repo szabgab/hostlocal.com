@@ -17,6 +17,8 @@
         "Understand Continuous Integration and how to use it with Python.",
         "Be able to test various types of application: web based, CLI, databases (both SQL, and NoSQL), cloud-based (AWS, GCP)"
     ],
+    "pic130": "cookie_130x97.jpeg",
+    "pic300": "cookie_300x225.jpeg",
     "prerequisites": [
         "At least 1 year experience programming in Python.",
         "Bring your own computer where you already have Python installed and where you have the rights to install new software."
@@ -58,7 +60,5 @@
         "This course provides an introduction to the world of testing with Python.",
         "It starts with an overview of what is the goal of testing and how it can help you improve the speed of development and the reliability of your applications"
     ],
-    "title": "Testing and test-automation in Python",
-    "pic300": "cookie_300x225.jpeg",
-    "pic130": "cookie_130x97.jpeg"
+    "title": "Testing and test-automation in Python"
 }

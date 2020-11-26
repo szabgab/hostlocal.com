@@ -1,6 +1,6 @@
 {
     "course_format": [
-        "8 academic hours. (Two half-days)"
+        "16 academic hours. (Two days)"
     ],
     "keywords": [
         "python",
@@ -28,26 +28,43 @@
     "syllabus": [
         {
             "entries": [
-                "Short review of rhe Unit-test package and doctest.",
+                "Short review of unittest and doctest.",
                 "Getting started with testing: top-down and bottom-up.",
-                "The rest of the course covers Pytest:",
-                "Setup",
-                "Test a module",
+                "Install and setup pytest",
+                "Arguments of pyttest",
+                "Testing the functions of a module",
+                "Testing the methods of a class",
                 "Capture Standard output and standard error",
+                "Provide Standart input (keyboard input) to the program",
                 "Skipping irrelevant tests",
+                "Handling know issues",
                 "Tests that are expected to fail",
                 "Setup and teardown methods",
-                "Fixtures",
+                "xUnit-style Fixtures",
+                "Advanced Pytest-stle fixtures",
                 "Creating your own fixtures",
                 "Separating test executions",
+                "Parametrized tests",
                 "Parallel test run",
+                "Testing command line applications",
                 "Testing web applications",
+                "Testing the REST APIs of microservices",
                 "Creating and understanding test coverage",
+                "Mocking and Monkey Patching",
                 "Faking an external API",
                 "Testing error conditions",
                 "Verifying the proper exceptions are raised.",
                 "Testing how the application behaves when a third-party API breaks.",
-                "Faking random numbers for testing"
+                "Faking random numbers for testing",
+                "Collecting and interpreting code coverage",
+                "Generating XML and JSON reports",
+                "The most common plugins of Pytest",
+                "Configuring Pytest",
+                "Using Linters, PEP8, Flake8 to enhance tests",
+                "Integration with various CI systems",
+                "TDD - Test Driven Development",
+                "Testing Flask-based web application",
+                "Acceptane testing with Selenium"
             ],
             "title": "Details"
         }
@@ -59,8 +76,12 @@
         "Automation engineers"
     ],
     "text": [
+        "How do you know that your code works proparly after the changes you made today? How do you know your co-workers did not break the code that worked yesterday?",
+        "Are you waiting to the people in the QA department to find all the issues? What if the broken part only runs once a year on 1st of January? Would you like to be called back to work for urgent maintence first thing in the new year? What if you are the QA department?",
+        "Writing automated functional tests can help you reduce the risk. It can also make it much easier for you to make progress.",
         "This course provides an introduction to the world of testing with Python.",
-        "It starts with an overview of what is the goal of testing and how it can help you improve the speed of development and the reliability of your applications"
+        "It starts with an overview of what is the goal of testing and how it can help you improve the speed of development and the reliability of your applications",
+        "Then we cover many aspects of writing tests."
     ],
-    "title": "Testing and test-automation in Python"
+    "title": "Testing and test-automation in Python with Pytest"
 }

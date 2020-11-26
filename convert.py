@@ -4,12 +4,18 @@ import re
 import os
 import sys
 import json
+import shutil
 
 # convert my JSON format to the pseudo-XML format used by Brend
 # 300px × 225px  for the IMAGE and
 # 130px × 70px for the THUMBNAIL
 
 outdir = 'xml'
+
+# ABSTRACT - appears on the page listing the courses https://www.bodenseo.com/courses.php?topic=Python
+#          - also the top of the course page: https://www.bodenseo.com/course/python_training_course.html
+# DETAILS  - on the page of the course
+# SLOGAN, SLOGAN2 - on the left hand side of the page
 
 def main():
     args = get_args()
@@ -23,6 +29,7 @@ def main():
     #print(args.files)
     for filename in args.files:
         convert(args, filename)
+    os.system("tar czf xml.tar.gz xml/");
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -57,6 +64,9 @@ def convert(args, infile):
     template = re.sub(r'\{\{THUMBNAIL-TXT}}',    data['pic130_text'], template)
     template = re.sub(r'\{\{IMAGE}}',            data['pic300'], template)
     template = re.sub(r'\{\{IMAGE-TXT}}',        data['pic300_text'], template)
+
+    for filename in [data['pic130'], data['pic300']]:
+        shutil.copyfile( os.path.join('static', filename), os.path.join( outdir, filename) )
 
     details = ''
     for part in data['syllabus']:

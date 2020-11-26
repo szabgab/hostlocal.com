@@ -9,8 +9,15 @@ import json
 # 300px × 225px  for the IMAGE and
 # 130px × 70px for the THUMBNAIL
 
+outdir = 'xml'
+
 def main():
     args = get_args()
+    if os.path.exists(outdir):
+        for filename in os.listdir(outdir):
+            os.unlink( os.path.join(outdir, filename) )
+    else:
+        os.mkdir(outdir)
     #if len(sys.argv) < 2:
     #    exit(f"Usage: {sys.argv[0]} FILENAMEs")
     #print(args.files)
@@ -25,7 +32,7 @@ def get_args():
     return args
 
 def convert(args, infile):
-    outfile = re.sub(r'\.json', '.xml', os.path.basename(infile))
+    outfile = os.path.join(outdir, re.sub(r'\.json', '.xml', os.path.basename(infile)))
     template = get_template()
 
     with open(infile) as fh:

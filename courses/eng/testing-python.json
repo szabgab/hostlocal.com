@@ -3,7 +3,7 @@
         "8 academic hours. (Two half-days)"
     ],
     "keywords": [
-        "Python",
+        "python",
         "testing",
         "quality assurance",
         "automation"
@@ -58,5 +58,7 @@
         "This course provides an introduction to the world of testing with Python.",
         "It starts with an overview of what is the goal of testing and how it can help you improve the speed of development and the reliability of your applications"
     ],
-    "title": "Testing and test-automation in Python"
+    "title": "Testing and test-automation in Python",
+    "pic300": "cookie_300x225.jpeg",
+    "pic130": "cookie_130x97.jpeg"
 }

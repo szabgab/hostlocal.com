@@ -2,6 +2,7 @@
 
 <h1 id="course_title">{{ course.title }}</h1>
 
+
 {% if course.text %}
     {% for entry in course.text %}
        {% if entry == '' %}
@@ -117,8 +118,8 @@
 
 {% include 'incl/contact.html' %}
 
-{% if course.img %}
-<img src="/static/{{ course.img }}">
+{% if course.pic300 %}
+<img src="/static/{{ course.pic300 }}" alt="{{ course.title }}">
 {% endif %}
 
 

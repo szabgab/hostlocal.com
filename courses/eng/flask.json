@@ -1,0 +1,116 @@
+{
+    "course_format": [
+        "40 academic hours. (Five full days)"
+    ],
+    "keywords": [
+        "python",
+        "web",
+        "html",
+        "Flask"
+    ],
+    "language": [
+        "The course is given in Hebrew with slides and materials in English."
+    ],
+    "objectives": [
+        "Write a web application in Python using Flask"
+    ],
+    "pic130": "cookie_130x97.jpeg",
+    "pic130_text": "Big Cookie (c) Gabor Szabo",
+    "pic300": "cookie_300x225.jpeg",
+    "pic300_text": "Big Cookie (c) Gabor Szabo",
+    "prerequisites": [
+        "At least 1 year experience programming in Python.",
+        "Bring your own computer where you have the rights to install new software."
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "Installing Flask on Linux, Windows, and Mac OSX",
+                "Hello World with Flask",
+                "Introduction to routes",
+                "Accepting input from the user (GET, POST)",
+                "Handling Query String",
+                "Handling HTML forms",
+                "Flexible routes to create nice URLs",
+                "Developing Flask inside a Docker container",
+                "Login system, sessions management, cookies",
+                "Introduction to HTML",
+                "Introduction to CSS",
+                "Creating a REST API with Flask",
+                "Returning JSON instead of HTML",
+                "Accepting JSON as input",
+                "Creating nice 404 page",
+                "Returning 404 and other error codes",
+                "Redirection",
+                "Testing our Flask-based web application",
+                "Using Redis as a cache",
+                "Sending email from Flask",
+                "Deploying a Flask based application to the cloud",
+                "Setting up Flask with Nginx and Uwsgi"
+            ],
+            "title": "Introduction"
+        },
+        {
+            "entries": [
+                "Introduction to the Jinja templating system of Flask",
+                "Individual variables",
+                "Conditionals",
+                "Loops",
+                "Include other templates",
+                "Inheritance from a base template"
+            ],
+            "title": "Templates"
+        },
+        {
+            "entries": [
+                "Quick overview",
+                "Creating a simple schema",
+                "Creating the database (SQLite)",
+                "Accessing SQL database",
+                "Inserting data into the database",
+                "Fetching data from the database",
+                "Updating data",
+                "Deleting data"
+            ],
+            "title": "Relational Database (SQL)"
+        },
+        {
+            "entries": [
+                "Quick introduction",
+                "Installing MongoDB",
+                "Connecting to the database",
+                "Inserting data into the database",
+                "Fetching data from the database",
+                "Updating data",
+                "Deleting data"
+            ],
+            "title": "NoSQL Database (MongoDB)"
+        },
+        {
+            "entries": [
+                "Install Bootstrap",
+                "Combining Bootstrap with our templating system"
+            ],
+            "title": "Bootstrap Front-end"
+        },
+        {
+            "entries": [
+                "TODO list application",
+                "URL shortener",
+                "An interactive game"
+            ],
+            "title": "Sample Applications"
+        }
+    ],
+    "target_audience": [
+        "Developers",
+        "QA engineers",
+        "DevOps engineers"
+    ],
+    "text": [
+        "Flask is one of the most popular web frameworks in Python. It is a light-weight micro-framework that makes it very easy to start writing web applications, but it is also feature rich so you can create complex applications.",
+        "In this course we'll start from a basic application just to display Hello World. Then we are going to learn how to create user interaction with the back-end. We'll learn how to use both SQL and NoSQL as the back-end database of the application.",
+        "By the end of the course you'll be able to create the back-end of impressive web applications."
+    ],
+    "title": "Web application development with Python Flask"
+}

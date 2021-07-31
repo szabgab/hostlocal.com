@@ -1,0 +1,212 @@
+{
+    "course_format": [
+        "Duration of the course is 40 academic hours. (5 full days or 10 meetings of 4 hours each).",
+        "The course includes approximately 40% hands on lab work.",
+        "The course can be followed using Python 3."
+    ],
+    "language": [
+        "The course can be given either in Hebrew or in English with slides and materials in English."
+    ],
+    "objectives": [
+        "Have an understanding of the differences between environments like Matlab, R, and Python.",
+        "Introduction to tools used by Scientists to process their data.",
+        "Introduction to Machine Learning"
+    ],
+    "prerequisites": [
+        "Programming background in Python",
+        "Understanding and being able to use data structures in Python such as lists, dictionaries, sets, and tuples.",
+        "Scientific background (at least Bsc in a science subject)."
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "Scalars, Lists, Dictionaries, Tuples, Sets",
+                "I/O",
+                "Control flow: for-in and while loops, if, else elif",
+                "Files (Plain text, CSV, Excel, JSON, YAML)",
+                "Functions",
+                "Modules"
+            ],
+            "title": "Overview of Python syntax"
+        },
+        {
+            "entries": [
+                "Working with Git locally",
+                "Cloning remote repository",
+                "Forking/Sending Pull-request"
+            ],
+            "title": "Git and GitHub"
+        },
+        {
+            "entries": [
+                "doctest",
+                "pytest"
+            ],
+            "title": "Introduction to Testing"
+        },
+        {
+            "entries": [
+                "What's behind the data structures of Python.",
+                "What is a hashing algorithm when and how to use it.",
+                "How picking a data structure  impacts algorithmic complexity.",
+                "Stack (LIFO), Queue (FIFO)",
+                "Trees, Graphs, Binary graphs",
+                "Why and how are the numpy arrays much faster than regular Python lists?"
+            ],
+            "title": "Data, Algorithms, and complexity"
+        },
+        {
+            "entries": [
+                "Navigation",
+                "Files",
+                "Markdown"
+            ],
+            "title": "Using Jupyter notebook"
+        },
+        {
+            "entries": [
+                "Arrays, matrices",
+                "Indexing of matrices in Numpy",
+                "Transformations on arrays",
+                "Data type and conversion to",
+                "Selecting data",
+                "Read/write data",
+                "Numpy and Matlab"
+            ],
+            "title": "Introduction to Numpy"
+        },
+        {
+            "entries": [
+                "DataFrame and Series in Pandas",
+                "Indexing methods in Pandas",
+                "Groupby in Pandas",
+                "Mathematical Operations in Pandas",
+                "Indexing a data Series",
+                "Modifying data",
+                "Merging DataFrames",
+                "Dates in Pandas",
+                "Create graphs in Pandas"
+            ],
+            "title": "Introduction to Pandas"
+        },
+        {
+            "entries": [
+                "Matplotlib",
+                "Seaborn",
+                "Bokeh",
+                "Holoviz",
+                "Histograms",
+                "Heatmaps",
+                "Various plots (line, scatter)"
+            ],
+            "title": "Data Visualization"
+        },
+        {
+            "entries": [
+                "NumPy",
+                "Pandas",
+                "SciPy",
+                "Matplotlib",
+                "Seaborn",
+                "Comparing with Matlab and R"
+            ],
+            "title": "The Scientific libraries"
+        },
+        {
+            "entries": [
+                "OpenCV",
+                "Spacy"
+            ],
+            "title": "Image manipulation"
+        },
+        {
+            "entries": [
+                "scikit-learn",
+                "Linear regression",
+                "Correlation vs. Regression",
+                "Factor analysis",
+                "Logistic regression",
+                "Classification",
+                "Decision Tree",
+                "Random forest",
+                "Supervised learning",
+                "Unsupervised learning"
+            ],
+            "title": "Machine learning"
+        },
+        {
+            "entries": [
+                "multiprocessing",
+                "forking",
+                "threading",
+                "async programming"
+            ],
+            "title": "Parallel programming"
+        },
+        {
+            "entries": [
+                "Getting a token",
+                "Sending GET request",
+                "Sending POST request",
+                "Retrieving JSON document",
+                "Submitting data"
+            ],
+            "title": "Accessing web APIs"
+        },
+        {
+            "entries": [
+                "Using the Python requests module",
+                "Using Scrapy",
+                "Using Selenium"
+            ],
+            "title": "Web scraping"
+        },
+        {
+            "entries": [
+                "File selector",
+                "Buttons",
+                "Entry box",
+                "Event handling",
+                "Showing progress",
+                "Timer event"
+            ],
+            "title": "GUI Using Python Tk"
+        },
+        {
+            "entries": [
+                "Quick overview",
+                "Creating a simple schema",
+                "Creating the database (SQLite)",
+                "Accessing SQL database",
+                "Inserting data into the database",
+                "Fetching data from the database",
+                "Updating data",
+                "Deleting data"
+            ],
+            "title": "Relational Database access (SQL)"
+        },
+        {
+            "entries": [
+                "DOM",
+                "SAX"
+            ],
+            "title": "XML processing"
+        },
+        {
+            "entries": [
+                "Introduction to Web development",
+                "Introduction to HTML",
+                "Introduction to CSS",
+                "Simple examples using Flask"
+            ],
+            "title": "Web based GUI - Flask"
+        }
+    ],
+    "target_audience": [
+        "This is an advanced course suitable for people who already have programming background and want to process scientific data. It is especially suitable for students and people working in scientific environments."
+    ],
+    "text": [
+        ""
+    ],
+    "title": "Advanced Programming course for Scientist"
+}

@@ -114,10 +114,15 @@
         },
         {
             "entries": [
-                "OpenCV",
-                "Spacy"
+                "OpenCV"
             ],
             "title": "Image manipulation"
+        },
+        {
+            "entries": [
+                "Spacy"
+            ],
+            "title": "Natural Language Processing"
         },
         {
             "entries": [

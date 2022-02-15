@@ -1,8 +1,7 @@
 {
     "course_format": [
-        "Duration of the course is 24-32 academic hours. (Usually 3-4 days).",
-        "The course includes approximately 40% hands on lab work.",
-        "In the 4 day long version we allocate more time for exercises and have more time for individual help."
+        "Duration of the course is 32 academic hours. (Usually 4 days).",
+        "The course includes approximately 40% hands on lab work."
     ],
     "objectives": [
         "To master the rich set of Python libraries and modules.",

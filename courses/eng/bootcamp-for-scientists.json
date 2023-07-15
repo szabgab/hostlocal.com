@@ -15,9 +15,7 @@
         "Understand procedural control flow in Python"
     ],
     "prerequisites": [
-        "Basic programming background. (e.g., R, Matlab)",
-        "Scientific background (at least Bsc in a science subject).",
-        "Understanding of files and directories."
+        "Scientific background (at least Bsc in a science subject)."
     ],
     "syllabus": [
         {

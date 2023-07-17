@@ -8,8 +8,8 @@
         "We will look at testing of CLI and Web applications and testing of Network Appliances."
     ],
     "course_format": [
-        "32 academic hours (usually full 4 days).",
-        "About 50% hands-on exercise."
+        "32 academic hours (usually full 4 days or 8 half-days).",
+        "About 40% hands-on exercise."
     ],
     "objectives": [
         "Learn the importance of automated tests",
@@ -55,8 +55,7 @@
         }
     ],
     "target_audience": [
-        "People writing and maintaining Perl scripts, modules, or applications.",
-        "QA engineers with some background in Perl already."
+        "People writing and maintaining Perl scripts, modules, or applications."
     ],
-    "title": "QA - Test Automation using Perl"
+    "title": "Test Automation using Perl"
 }

@@ -1,9 +1,6 @@
 {
     "course_format": [
-        "8 academic hours. (Two half-days)"
-    ],
-    "language": [
-        "The course is given in Hebrew with slides and materials in English."
+        "Typically 8 academic hours. One whole day 9:00-17:00 or two half-days."
     ],
     "objectives": [
         "Understand what problems Docker solves.",
@@ -23,7 +20,7 @@
                 "Why use Docker?",
                 "What is Docker?",
                 "How can Docker bridge the gap between Developers, QA, and Operations?",
-                "Installing Docker on Windows, MacOSX, Linux",
+                "Installing Docker on Windows, macOS, Linux",
                 "Public Docker Images",
                 "Docker Registry / Docker HUB",
                 "Difference between a Docker Image and a Docker Container",
@@ -82,7 +79,7 @@
                 "Run several Docker images at once",
                 "Rebuild docker image when running with docker-compose",
                 "Run multi-host applications using docker-compose.",
-                "Create an image in the repository (from github)",
+                "Create an image in the repository (from GitHub)",
                 "Networking with docker-compose"
             ],
             "title": "Docker compose"
@@ -104,9 +101,9 @@
         },
         {
             "entries": [
-                "Distributing a web application. Flask",
-                "Distribute a web application Flask + Nginx",
-                "Distribute a web application Flask + Nginx + MongoDB",
+                "Distribute a web application: Flask",
+                "Distribute a web application: Flask + Nginx",
+                "Distribute a web application: Flask + Nginx + MongoDB",
                 "Mapping ports of the Docker image and the local system.",
                 "EXPOSE"
             ],

@@ -1,0 +1,76 @@
+{
+    "course_format": [
+        "Duration of the course is 8 academic hours. One full day or 2 half-days.",
+        "The course includes approximately 40% hands on lab work."
+    ],
+    "objectives": [
+        "Be able to setup GitHub Action as a Continuous Integration system.",
+        "Run GitHub Actions on Linux, macOS, and MS Windows.",
+        "Run GitHub Actions in Docker containers."
+    ],
+    "prerequisites": [
+        "An understanding of the cloud-based source-code management."
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "GitHub Actions vs GitHub workflows",
+                "What kind of things can be done using GitHub Actions"
+            ],
+            "title": "About GitHub Actions"
+        },
+        {
+            "entries": [
+                "The basic structure of the YAML configuration files",
+                "Select the platform",
+                "Run simple shell commands"
+            ],
+            "title": "Creating the first workflow"
+        },
+        {
+            "entries": [
+                "push",
+                "pull_request",
+                "manually running jobs",
+                "selecting branches"
+            ],
+            "title": "Triggers"
+        },
+        {
+            "entries": [
+                "Defining variables in the matrix",
+                "Excluding sets",
+                "Including sets",
+                "fail-fast"
+            ],
+            "title": "The matrix of jobs"
+        },
+        {
+            "entries": [
+                "Using MongoDB",
+                "Using PostgreSQL",
+                "Using MySQL/MariaDB"
+                "Using Redis"
+            ],
+            "title": "Using services in the workflows"
+        },
+        {
+            "entries": [
+                "Display the existing environment variables",
+                "Create environment variables for jobs",
+                "Stores secrets",
+                "Use the secret in the workflows"
+            ],
+            "title": "Variables and Secrets"
+        }
+    ],
+    "target_audience": [
+        "Software developers and programmers who need to work co-operatively on projects."
+    ],
+    "text": [
+        "This course will allow you to get started using GitHub Actions.",
+        "It will allow you as a programmer to set up Continuous Integration for your projects.",
+        "This will allow you to communicate well with DevOps engineers."
+    ],
+    "title": "GitHub"
+}

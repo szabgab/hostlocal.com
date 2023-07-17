@@ -49,7 +49,7 @@
             "entries": [
                 "Using MongoDB",
                 "Using PostgreSQL",
-                "Using MySQL/MariaDB"
+                "Using MySQL/MariaDB",
                 "Using Redis"
             ],
             "title": "Using services in the workflows"

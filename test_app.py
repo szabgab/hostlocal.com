@@ -31,7 +31,7 @@ def test_app():
 
     rv = me.get('/clients.html')
     assert rv.status == '302 FOUND'
-    assert rv.headers['Location'] == 'http://localhost/'
+    assert rv.headers['Location'] == '/'
 
     rv = me.get('/robots.txt')
     assert b'' == rv.data
@@ -42,7 +42,7 @@ def test_app():
 
     rv = me.get('/eng/')
     assert rv.status == '302 FOUND'
-    assert rv.headers['Location'] == 'http://localhost/'
+    assert rv.headers['Location'] == '/'
 
 def test_courses():
     for lang in ['eng', 'heb']:

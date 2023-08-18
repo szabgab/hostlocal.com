@@ -15,7 +15,7 @@
         "Use Object Oriented programming techniques"
     ],
     "prerequisites": [
-        "Basic programming background in either a high-level language such as C, Java or a scripting language such as Shell, VBSscript, Javascript, Perl, PHP or Ruby",
+        "Basic programming background in a programming language such as C, Java, Javascript, Perl, PHP or Ruby, just to name a few.",
         "Experience with a text editor like emacs, vi, pico or notepad.",
         "Understanding of files and directories."
     ],

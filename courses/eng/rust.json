@@ -29,10 +29,13 @@
                 "Enums",
                 "Threading",
                 "Creating libraries in Rust",
+                "Generics and Traits",
+                "Variable lifetime",
+                "Smart pointers",
                 "Dependency management",
                 "Backword compability",
                 "Testing your code",
-                "Distributing executables for multiple platforms"
+                "Distributing executables for multiple platforms (CI/CD, cross compilation)"
             ],
             "title": "Rust"
         },
@@ -53,6 +56,19 @@
         },
         {
             "entries": [
+                "Iterators",
+                "Closures",
+                "Function pointers"
+            ],
+            "title": "Functiona programmin in Rust"
+        },
+        {
+            "entries": [
+            ],
+            "title": "Concurrency with async programming"
+        },
+        {
+            "entries": [
             ],
             "title": "The liquid Templating system"
         },
@@ -63,11 +79,26 @@
         },
         {
             "entries": [
+            ],
+            "title": "Building API in Rust"
+        },
+        {
+            "entries": [
                 "JSON",
                 "YAML",
                 "CSV"
             ],
             "title": "Handling well-knonw file formats"
+        },
+        {
+            "entries": [
+            ],
+            "title": "Macros"
+        },
+        {
+            "entries": [
+            ],
+            "title": "Unsafe Rust and FFI - Foreign Function Interface"
         }
      ],
     "target_audience": [

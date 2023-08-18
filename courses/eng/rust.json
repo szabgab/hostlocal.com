@@ -1,0 +1,77 @@
+{
+    "course_format": [
+        "Duration of the course is 24 academic hours. (3 full days).",
+        "The course includes approximately 40% hands on lab work."
+    ],
+    "objectives": [
+        "To be able to write programs in Rust.",
+        "To master the rich set of Rust libraries (crates)."
+    ],
+    "prerequisites": [
+        "Basic programming background in either a high-level language such as C, Java or a scripting language such as Shell, VBSscript, Javascript, Perl, PHP or Ruby"
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "Installing Rust",
+                "Why use Rust?",
+                "Cargo - the package and dependency manager of Rust",
+                "Hello World",
+                "Primitives - basic types in Rust",
+                "Variables, mutability",
+                "Control flow",
+                "Understanding memory safety, ownership and borrowing",
+                "They type system of Rust",
+                "Error handling",
+                "Special types: Option, Result",
+                "Vectors",
+                "Structs",
+                "Enums",
+                "Threading",
+                "Creating libraries in Rust",
+                "Dependency management",
+                "Backword compability",
+                "Testing your code",
+                "Distributing executables for multiple platforms"
+            ],
+            "title": "Rust"
+        },
+        {
+            "entries": [
+                "Data embedded in the source code",
+                "What is the Stack, Heap",
+                "Pointers",
+                "Memory management",
+                "Manual memory managemen with allocation and freeing",
+                "Refernce counting",
+                "Garbage collection",
+                "Compiled vs. Interpreted languages",
+                "Statically type vs. dynamically typed languages",
+                "Loosly typed vs strongly typed"
+            ],
+            "title": "Relevant Computer Science topics"
+        },
+        {
+            "entries": [
+            ],
+            "title": "The liquid Templating system"
+        },
+        {
+            "entries": [
+            ],
+            "title": "CLI - Command line applications in Rust"
+        }
+        {
+            "entries": [
+                "JSON",
+                "YAML",
+                "CSV"
+            ],
+            "title": "Handling well-knonw file formats"
+        }
+     ],
+    "target_audience": [
+        "This is a beginner course suitable for anyone wanting to use Rust for developing libraries or applications."
+    ],
+    "title": "Rust Programming"
+}

@@ -15,21 +15,26 @@
             "entries": [
                 "Installing Rust",
                 "Why use Rust?",
+                "Configuring IDE or editor",
                 "Cargo - the package and dependency manager of Rust",
                 "Hello World",
-                "Primitives - basic types in Rust",
+                "Primitives - basic (scalar) types in Rust",
                 "Variables, mutability",
+                "Scope of variables",
                 "Control flow",
                 "Understanding memory safety, ownership and borrowing",
                 "They type system of Rust",
                 "Error handling",
                 "Special types: Option, Result",
+                "Compound types (Vectors, Hashes, Structs, etc.)",
                 "Vectors",
                 "Structs",
                 "Enums",
+                "Functions",
                 "Threading",
                 "Creating libraries in Rust",
                 "Generics and Traits",
+                "Collections",
                 "Variable lifetime",
                 "Smart pointers",
                 "Dependency management",
@@ -44,9 +49,9 @@
                 "Data embedded in the source code",
                 "What is the Stack, Heap",
                 "Pointers",
-                "Memory management",
+                "Memory management, memory safety",
                 "Manual memory managemen with allocation and freeing",
-                "Refernce counting",
+                "Reference counting",
                 "Garbage collection",
                 "Compiled vs. Interpreted languages",
                 "Statically type vs. dynamically typed languages",
@@ -60,7 +65,19 @@
                 "Closures",
                 "Function pointers"
             ],
-            "title": "Functiona programmin in Rust"
+            "title": "Functional programming in Rust"
+        },
+        {
+            "entries": [
+                "Module system",
+                "Creating an executable (binary) crate",
+                "Creating a library crate",
+                "Packaging crates",
+                "Distributing crates",
+                "One crate per repo",
+                "Multiple crates per repo (monorepo)"
+            ],
+            "title": "Crates"
         },
         {
             "entries": [

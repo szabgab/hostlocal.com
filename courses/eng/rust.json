@@ -41,7 +41,7 @@
                 "Variable lifetime",
                 "Smart pointers",
                 "Dependency management",
-                "Backword compability",
+                "Backward compability",
                 "Testing your code",
                 "Distributing executables for multiple platforms (CI/CD, cross compilation)"
             ],
@@ -71,12 +71,12 @@
                 "What is the Stack, Heap",
                 "Pointers",
                 "Memory management, memory safety",
-                "Manual memory managemen with allocation and freeing",
+                "Manual memory management with allocation and freeing",
                 "Reference counting",
                 "Garbage collection",
                 "Compiled vs. Interpreted languages",
                 "Statically type vs. dynamically typed languages",
-                "Loosly typed vs strongly typed"
+                "Loosely typed vs strongly typed"
             ],
             "title": "Relevant Computer Science topics"
         },
@@ -102,12 +102,12 @@
         },
         {
             "entries": [
-                  "Run code simultaniously",
+                  "Run code simultaneously",
                   "Passing data back-and-force between threads",
                   "Sharing data between threads",
-                  "Avoiding dead-locks and other nastyness"
+                  "Avoiding dead-locks and other nastiness"
             ],
-            "title": "Fearless Concurrency with threadding"
+            "title": "Fearless Concurrency with threading"
         },
         {
             "entries": [
@@ -135,7 +135,7 @@
                 "YAML",
                 "CSV"
             ],
-            "title": "Handling well-knonw file formats"
+            "title": "Handling well-known file formats"
         },
         {
             "entries": [

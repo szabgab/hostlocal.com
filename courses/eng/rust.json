@@ -19,19 +19,22 @@
                 "Cargo - the package and dependency manager of Rust",
                 "Hello World",
                 "Primitives - basic (scalar) types in Rust",
+                "Inferred types",
+                "Numbers, characters, strings",
+                "String slices",
                 "Variables, mutability",
                 "Scope of variables",
-                "Control flow",
+                "Control flow (if, for, loop)",
                 "Understanding memory safety, ownership and borrowing",
                 "They type system of Rust",
                 "Error handling",
                 "Special types: Option, Result",
-                "Compound types (Vectors, Hashes, Structs, etc.)",
+                "Pattern matching (match, Ok, Err, Some, None)",
+                "Compound types (Vectors, Hashes, Structs, Tuples, etc.)",
                 "Vectors",
                 "Structs",
                 "Enums",
                 "Functions",
-                "Threading",
                 "Creating libraries in Rust",
                 "Generics and Traits",
                 "Collections",
@@ -43,6 +46,24 @@
                 "Distributing executables for multiple platforms (CI/CD, cross compilation)"
             ],
             "title": "Rust"
+        },
+        {
+            "entries": [
+                "The regex flavor of Rust",
+                "Matching strings",
+                "Capturing the match",
+                "Matching repetitions",
+                "Replacing strings",
+                "Compiling regular expressions only once"
+            ],
+            "title": "Regular Expressions in Rust"
+        },
+        {
+            "entries": [
+                "Use a Rust crate from Python",
+                "Use a Rust crate from C"
+            ],
+            "title": "Reusable Rust library"
         },
         {
             "entries": [
@@ -78,6 +99,15 @@
                 "Multiple crates per repo (monorepo)"
             ],
             "title": "Crates"
+        },
+        {
+            "entries": [
+                  "Run code simultaniously",
+                  "Passing data back-and-force between threads",
+                  "Sharing data between threads",
+                  "Avoiding dead-locks and other nastyness"
+            ],
+            "title": "Fearless Concurrency with threadding"
         },
         {
             "entries": [

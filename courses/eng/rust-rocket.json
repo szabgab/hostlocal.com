@@ -1,0 +1,57 @@
+{
+    "course_format": [
+        "Duration of the course is 24 academic hours. (3 full days).",
+        "The course includes approximately 40% hands on lab work."
+    ],
+    "objectives": [
+        "To be able to develop web APIs in Rust using the Rocket framework.",
+        "To be able to develop the backend of a web application with plain HTML and CSS front-end."
+    ],
+    "prerequisites": [
+        "Basic programming background in either a high-level language such as C, Java or a scripting language such as Shell, VBSscript, Javascript, Perl, PHP or Ruby"
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "Installing Rust",
+                "Hello World with Rust Rocket",
+                "Routes",
+                "GET and POST requests",
+                "Path parameters",
+                "Handling 404 not found",
+                "Redirections",
+                "Input validation",
+                "Guards",
+                "Configuring the web application",
+                "Session management",
+                "Cookies",
+                "Testing"
+            ],
+            "title": "Rust"
+        },
+        {
+            "entries": [
+                "Returning JSON",
+                "Accepting JSON"
+            ],
+            "title": "Building API Rocket"
+        },
+        {
+            "entries": [
+                "Single value",
+                "Conditionals",
+                "Loops",
+                "Showing a list",
+                "Showing a HashMap",
+                "Showing a Struct",
+                "Including other templates",
+                "Using a layout"
+            ],
+            "title": "The Tera template system"
+        }
+     ],
+    "target_audience": [
+        "This course is suitable for anyone with basic background in Rust and in web application development (backend)."
+    ],
+    "title": "Web Application development with Rust Rocket"
+}

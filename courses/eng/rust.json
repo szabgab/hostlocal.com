@@ -8,7 +8,7 @@
         "To master the rich set of Rust libraries (crates)."
     ],
     "prerequisites": [
-        "Basic programming background in either a high-level language such as C, Java or a scripting language such as Shell, VBSscript, Javascript, Perl, PHP or Ruby"
+        "Good programming background in a language such as C, C++, Java, Perl, Python, PHP, or Ruby"
     ],
     "syllabus": [
         {
@@ -116,13 +116,21 @@
         },
         {
             "entries": [
+                "Using ARGS for simple programs",
+                "Introduction to Clap, the Command Line Argument Parser of Rust",
+                "Positional arguments",
+                "Named arguments",
+                "Required vs optional arguments",
+                "Exclusive arguments",
+                "Providing help"
             ],
-            "title": "The liquid Templating system"
+            "title": "CLI - Command line applications in Rust"
         },
         {
             "entries": [
+               "The liquid Templating system"
             ],
-            "title": "CLI - Command line applications in Rust"
+            "title": "Optional topics"
         },
         {
             "entries": [

@@ -61,7 +61,7 @@ def show_page(name):
 def home():
     schedule = read_schedule()
     return render_template('index.html',
-        page_title = "Host Local Training courses for DevOps, in Git, Linux, Jenkins CI, Test Automation, Python",
+        page_title = "Host Local Training courses for Rust and Python",
         schedule   = schedule,
     )
 

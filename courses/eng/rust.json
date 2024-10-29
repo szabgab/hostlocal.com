@@ -1,6 +1,6 @@
 {
     "course_format": [
-        "Duration of the course is 24 academic hours. (3 full days).",
+        "Duration of the course is 42 academic hours.",
         "The course includes approximately 40% hands on lab work."
     ],
     "objectives": [
@@ -25,7 +25,6 @@
                 "Variables, mutability",
                 "Scope of variables",
                 "Control flow (if, for, loop)",
-                "Understanding memory safety, ownership and borrowing",
                 "They type system of Rust",
                 "Error handling",
                 "Special types: Option, Result",
@@ -42,7 +41,6 @@
                 "Smart pointers",
                 "Dependency management",
                 "Backward compatibility",
-                "Testing your code",
                 "Distributing executables for multiple platforms (CI/CD, cross compilation)"
             ],
             "title": "Rust"
@@ -82,6 +80,16 @@
         },
         {
             "entries": [
+                "What is Ownership?",
+                "How do we pass ownership",
+                "References and Borrowing when passing parameters to functions",
+                "The Slice type",
+                "Lifetimes"
+            ],
+            "title": "Understanding memory safety, ownership and borrowing"
+        },
+         {
+            "entries": [
                 "Iterators",
                 "Closures",
                 "Function pointers"
@@ -111,11 +119,6 @@
         },
         {
             "entries": [
-            ],
-            "title": "Concurrency with async programming"
-        },
-        {
-            "entries": [
                 "Using ARGS for simple programs",
                 "Introduction to Clap, the Command Line Argument Parser of Rust",
                 "Positional arguments",
@@ -128,36 +131,36 @@
         },
         {
             "entries": [
-               "The liquid Templating system"
-            ],
-            "title": "Optional topics"
-        },
-        {
-            "entries": [
-            ],
-            "title": "Building API in Rust"
-        },
-        {
-            "entries": [
                 "JSON",
                 "YAML",
+                "TOML",
+                "INI",
                 "CSV"
             ],
             "title": "Handling well-known file formats"
         },
         {
             "entries": [
+                "Writing unit tests",
+                "Writing integration tests",
+                "Controlling how test are run"
             ],
-            "title": "Macros"
+            "title": "Testing your code"
         },
         {
             "entries": [
+                "Unsafe Rust - Simple example using unsafe code in Rust",
+                "FFI - Foreign Function Interface",
+                "Building API in Rust",
+                "The liquid Templating system",
+                "Concurrency with async programming",
+                "Macros - A few simple examples with declarative macros"
             ],
-            "title": "Unsafe Rust and FFI - Foreign Function Interface"
+            "title": "Optional topics"
         }
      ],
     "target_audience": [
-        "This is a beginner course suitable for anyone wanting to use Rust for developing libraries or applications."
+        "This is a beginner level course suitable for anyone wanting to use Rust for developing libraries (crates) or applications."
     ],
     "title": "Rust Programming"
 }

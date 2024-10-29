@@ -41,7 +41,7 @@
                 "Variable lifetime",
                 "Smart pointers",
                 "Dependency management",
-                "Backward compability",
+                "Backward compatibility",
                 "Testing your code",
                 "Distributing executables for multiple platforms (CI/CD, cross compilation)"
             ],

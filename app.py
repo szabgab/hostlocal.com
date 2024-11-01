@@ -24,6 +24,8 @@ def no_listing():
 
 @app.route("/<any(eng, heb):lang>/<string:name>")
 def eng_course(lang, name):
+    if name.endswith('.html'):
+        name = name[0:-5]
     course_file = os.path.join(root, 'courses', lang, name + '.json')
     schedule = read_schedule(name)
     if os.path.exists(course_file):
@@ -44,6 +46,9 @@ def show_page(name):
     app.logger.info(f"Trying to access '{name}'")
     if name in ['clients.html', 'gabor.html', 'perl.html', 'development.html', 'staff.html', 'contact.html', 'infrastructure.html']:
         return redirect('/', code=302)
+
+    if name.endswith('.html'):
+        name = name[0:-5]
 
     with open(os.path.join(root, 'pages.txt')) as fh:
         for row in fh:
@@ -123,7 +128,7 @@ if __name__ == "__main__":
     def eng_course():
         for lang in ['eng', 'heb']:
             for course in glob.glob(os.path.join(root, 'courses', lang, '*.json')):
-                yield f"/{lang}/" + course.split('/')[-1][0:-5]
+                yield f"/{lang}/" + course.split('/')[-1][0:-5] + ".html"
 
     @freezer.register_generator
     def show_page():
@@ -135,6 +140,6 @@ if __name__ == "__main__":
             name = page.split('/')[-1][0:-5]
             if name in ['index', 'image', 'course']:
                 continue
-            yield f"/{name}"
+            yield f"/{name}.html"
 
     freezer.freeze()

@@ -24,7 +24,7 @@ jobs:
       - name: Checkout site source
         uses: actions/checkout@v4
 
-     - name: Setup Pages
+      - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Install libraries

@@ -2,18 +2,20 @@ import os
 import json
 import re
 import datetime
-from flask import Flask, render_template, redirect, abort
+from flask import Flask, render_template, redirect, abort, Response
+from flask_frozen import Freezer
+
 app = Flask(__name__)
 
 root = os.path.dirname( __file__ )
 
-@app.context_processor
-def inject_dates():
-    return dict(css_date = os.path.getmtime( os.path.join(root, 'static', 'style.css')))
+# @app.context_processor
+# def inject_dates():
+#     return dict(css_date = os.path.getmtime( os.path.join(root, 'static', 'style.css')))
 
 @app.route("/robots.txt")
 def robots():
-    return ''
+    return Response('', mimetype='text/plain')
 
 @app.route("/eng/")
 @app.route("/heb/")
@@ -84,7 +86,7 @@ def sitemap():
   </url>""".format(course[0:-5])
 
     xml += "\n</urlset>"
-    return xml
+    return Response(xml, mimetype='application/xml')
 
 def read_schedule(name = None):
     now = datetime.datetime.now()
@@ -110,3 +112,29 @@ def read_titles(name):
     with open(os.path.join(root, name + '.json')) as fh:
         return json.load(fh)
 
+
+import glob
+if __name__ == "__main__":
+    app.config['FREEZER_DESTINATION'] = os.path.join(root, '_site')
+    app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
+    freezer = Freezer(app)
+
+    @freezer.register_generator
+    def eng_course():
+        for lang in ['eng', 'heb']:
+            for course in glob.glob(os.path.join(root, 'courses', lang, '*.json')):
+                yield f"/{lang}/" + course.split('/')[-1][0:-5]
+
+    @freezer.register_generator
+    def show_page():
+        for name in ['clients.html', 'gabor.html', 'perl.html', 'development.html', 'staff.html', 'contact.html', 'infrastructure.html']:
+            yield f"/{name}"
+
+
+        for page in glob.glob(os.path.join(root, 'templates', '*.html')):
+            name = page.split('/')[-1][0:-5]
+            if name in ['index', 'image', 'course']:
+                continue
+            yield f"/{name}"
+
+    freezer.freeze()

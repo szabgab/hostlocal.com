@@ -5,3 +5,4 @@ db.json
 *.xml
 /xml/
 xml.tar.gz
+_site/

@@ -50,9 +50,13 @@
         }
     ],
     "target_audience": [
-        "Teams of software developers and programmers who need to work co-operatively on projects.",
-        "DevOps engineers",
-        "Automation engineers"
+        "HR",
+        "Marketing",
+        "Sales",
+        "Writers (e.g. technical documentation writer)",
+        "Tech support",
+        "Any non-technical person"
+
     ],
     "text": [
         "This course will help you, a non-technical person make changes to data files on GitHub.",

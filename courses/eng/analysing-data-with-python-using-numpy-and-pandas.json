@@ -1,0 +1,85 @@
+{
+    "course_format": [
+        "Duration of the course is 32-40 academic hours. (Usually 4-5 full days or twice as many half-days).",
+        "The course includes approximately 40% hands on lab work."
+    ],
+    "language": [
+        "The course can be given either in Hebrew or English with slides and materials in English."
+    ],
+    "objectives": [
+        "Analyzing data is critical for many people even if their core job is something else. In this course you'll get the tools to take data provided in some well known format, e.g. Excel files, CSV files etc. and analyze them.",
+        "In the recent years Python and the SciPy libraries became the de-facto standard for data analysis, both for its price, the available breadth of solutions, and the general usability of the language. Python has long passed both Matlab and R in its popularity among practitioners.",
+        "In this course we'll learn about two of the most basic libraries: NumPy and Pandas, and several other, related libraries that will help you answer some of the questions about your data."
+    ],
+    "prerequisites": [
+        "Basic background in Python: Understanding basic data types: int, float, string, list, dictionary. Being able to use if-statement, loops, and functions. Being able to install and use 3rd party libraries.",
+        "Taking the Python Beginner course and having some practice beyond the exercises will cover the prerequisites."
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "VS Code vs PyCharm vs Jupyter notebook",
+                "Jupyter lab and Jupyter notebook"
+            ],
+            "title": "Development environments"
+        },
+        {
+            "entries": [
+                "NumPy arrays - vectors and matrices",
+                "Data types",
+                "Operations on arrays without writing loops",
+                "Working with external data (Excel, CSV, images)",
+                "Selecting data with boolean indexing",
+                "Sorting, searching, filtering and retrieving data"
+            ],
+            "title": "NumPy"
+        },
+        {
+            "entries": [
+                "Series, an extension on NumPy arrays",
+                "DataFrame representing a table of data"
+            ],
+            "title": "Pandas"
+        },
+        {
+            "entries": [
+                "Loading and saving data (Excel, CSV)",
+                "Understanding the basics about the data",
+                "Filtering data by rows and columns",
+                "Working with strings",
+                "Filtering data while loading it to allow to handle huge data-files."
+            ],
+            "title": "Working with Pandas"
+        },
+        {
+            "entries": [
+                "Indexing and multi-level indexing",
+                "Stacking and unstacking, and melting.",
+                "Pivot tables"
+            ],
+            "title": "Indexes"
+        },
+        {
+            "entries": [
+                "Grouping",
+                "Sorting",
+                "Joining",
+                "Combining data frames"
+            ],
+            "title": "Aggregate functionality "
+        },
+        {
+            "entries": [
+                "Categorizing data",
+                "Working with date/time data",
+                "Visualization of data with Pandas and other tools",
+                "Pandas and reducing memory usage"
+            ],
+            "title": "Other"
+        }
+    ],
+    "target_audience": [
+        "People with lots of data who would like to make sense of that data and make decisions based on the results."
+    ],
+    "title": "Analyzing data with Python using NumPy and Pandas"
+}

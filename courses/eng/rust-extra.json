@@ -1,0 +1,25 @@
+{
+    "course_format": [
+        "Duration of the course is 42 academic hours."
+    ],
+    "objectives": [
+        "To be able to write programs in Rust.",
+        "To master the rich set of Rust libraries (crates)."
+    ],
+    "prerequisites": [
+        "Experienced programmers with good programming background in a language such as C, C++, Java, Go, Perl, Python, PHP, or Ruby"
+    ],
+    "syllabus": [
+        {
+            "entries": [
+                "Unsafe Rust - Simple example using unsafe code in Rust",
+                "FFI - Foreign Function Interface"
+            ],
+            "title": "Rust"
+        },
+     ],
+    "target_audience": [
+        "This is a beginner level course suitable for anyone wanting to use Rust for developing libraries (crates) or applications."
+    ],
+    "title": "Rust Programming"
+}

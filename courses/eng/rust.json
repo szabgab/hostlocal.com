@@ -1,14 +1,13 @@
 {
     "course_format": [
-        "Duration of the course is 42 academic hours.",
-        "The course includes approximately 40% hands on lab work."
+        "Duration of the course is 42 academic hours."
     ],
     "objectives": [
         "To be able to write programs in Rust.",
         "To master the rich set of Rust libraries (crates)."
     ],
     "prerequisites": [
-        "Good programming background in a language such as C, C++, Java, Perl, Python, PHP, or Ruby"
+        "Experienced programmers with good programming background in a language such as C, C++, Java, Go, Perl, Python, PHP, or Ruby"
     ],
     "syllabus": [
         {
@@ -149,8 +148,6 @@
         },
         {
             "entries": [
-                "Unsafe Rust - Simple example using unsafe code in Rust",
-                "FFI - Foreign Function Interface",
                 "Building API in Rust",
                 "The liquid Templating system",
                 "Concurrency with async programming",
